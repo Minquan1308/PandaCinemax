@@ -1,0 +1,13 @@
+﻿@* @model DoAnCoSoTL.Models.Screening
+
+<h1>Screening Details</h1>
+
+<div>
+    <h4>@Model.Movie.Name</h4>
+    <p>Date: @Model.Date.ToShortDateString()</p>
+    <p>Time: @Model.Time - @Model.EndTime</p>
+    <p>Cinema: @Model.Cinema.Name</p>
+</div>
+
+<a asp-action="Index">Back to List</a>
+ *@

@@ -1,0 +1,92 @@
+﻿@model List<DoAnCoSoTL.Models.Category>
+
+@{
+    Layout = "_AdminLayout";
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+<h1>Index</h1>
+@* <a id="addCategoryLink" href="~/Admin/Category/Create">Add</a>
+ *@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr data-id="@category.Id">
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>@category.Description</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(category.Image))
+                    {
+                        <img src="@category.Image" alt="Category Image" style="max-width: 200px;" />
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@category.Id"><i class="fa fa-arrow-circle-right"></i></a>
+                    <a asp-action="Update" asp-route-id="@category.Id"><i class="fa fa-edit"></i></a>
+                   @*  <a asp-action="Delete" asp-route-id="@category.Id"><i class="ti-trash"></i></a> *@
+                    <a href="~/Admin/Category/Delete" class="btn-delete" data-id="@category.Id"><i class="ti-trash"></i></a>
+                        
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (Model.Count == 0)
+{
+    <img src="/images/error/notfound.png" style="height:50vh; text-align:center; margin-left:30%;" />
+    <a asp-action="Create" class="btn btn-warning font-weight-bold" style=" color: white; width:70px; height:70px; border-radius:50%; text-align:center; padding: 2.5% 0;"> Add <i class="fa fa-plus-circle"></i></a>
+}
+@if (Model.Count != 0)
+{
+    <a asp-action="Create" class="btn btn-primary"> Add <i class="fa fa-plus-circle"></i></a>
+
+}
+
+<form id="delete-form" action="@Url.Action("Delete", "Category")" method="post" style="display: none;">
+    <input type="hidden" name="id" value="" />
+</form>
+
+@section Scripts {
+    <script>
+        // Hàm xử lý sự kiện cho nút thùng rác
+        $(document).ready(function () {
+            $('.btn-delete').click(function (e) {
+                e.preventDefault();
+                var categoryId = $(this).data('id');
+                if (confirm("Are you sure you want to delete this category?")) {
+                    // Gửi yêu cầu xóa đến action "Delete" của controller "Category"
+                    $.post('/Admin/Category/Delete/' + categoryId)
+                        .done(function (response) {
+                            if (response.success) {
+                                console.log("Successfully deleted the category");
+                                window.location.reload();
+                            } else {
+                                alert(response.message);
+                            }
+                        })
+                        .fail(function (error) {
+                            console.error("This category has been set and cannot be deleted", error);
+                            alert("This category has been set and cannot be deleted.");
+                        });
+                }
+            });
+        });
+
+    </script>
+}

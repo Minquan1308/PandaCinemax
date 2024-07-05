@@ -1,0 +1,45 @@
+﻿@model IEnumerable<DoAnCoSoTL.ViewModels.OrderHistoryViewModel>
+@using System.Web
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch sử đặt vé</title>
+    <link rel="stylesheet" href="~/css/OrderListIndex.css" />
+</head>
+<body>
+    <div class="ticket-list">
+        <div class="ticket-header">Lịch sử mua vé</div>
+        <div class="ticket-items">
+            @foreach (var item in Model)
+            {
+                <div class="ticket-item">
+                    <div class="cinema-info" data-orderid="@item.OrderId">
+                        <div class="cinema-name">@item.CinemaName</div>
+                        <div class="movie-title">@item.MovieName</div>
+                        <div class="movie-title">@item.OrderDate.ToShortDateString()</div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="notification" id="paymentNotification">
+        <span class="icon">&#10004;</span>
+        <span id="notificationMessage"></span>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var cinemaInfos = document.querySelectorAll('.cinema-info');
+
+            cinemaInfos.forEach(function (cinemaInfo) {
+                cinemaInfo.addEventListener('click', function () {
+                    var orderId = this.dataset.orderid;
+                    window.location.href = '@Url.Action("Detail", "OrderList")' + '?orderId=' + orderId;
+                });
+            });
+        });
+    </script>
+</body>
+</html>

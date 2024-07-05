@@ -1,0 +1,128 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Movie>
+
+@{
+    ViewData["Title"] = "Lọc theo thể loại: ";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    .star-rating {
+        font-size: 18px;
+        color: orange;
+    }
+
+    .card {
+        border: 1px solid white;
+    }
+</style>
+
+<h1 class="products-display-title p-3">Kết quả tìm kiếm</h1>
+
+@if (Model.Any())
+{
+    <body>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="products-tabs">
+                    <!-- tab -->
+                    <div id="tab1" class="tab-pane active">
+                        <div class="products-slick" data-nav="#slick-nav-1">
+                            <!-- product -->
+                            @foreach (var movie in Model)
+                            {
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div>
+                                            <p>   </p>
+                                        </div>
+                                        <div class="shop-img">
+                                            @if (!String.IsNullOrEmpty(movie.Image))
+                                            {
+                                                <img src="@movie.Image" alt="Product Image" style="width: 250px; height: 250px; display: block; margin: 0 auto;" />
+                                            }
+                                            else
+                                            {
+                                                <div class="card-img-top text-center">No Image</div>
+                                            }
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="product-category">@movie.Category?.Name</p>
+                                            <h3 class="product-name"><a asp-action="Display" asp-route-id="@movie.Id">@movie.Name</a></h3>
+                                           
+                                          @*   <div class="star-rating">
+                                                @for (int i = 0; i < movie.Rate; i++)
+                                                {
+                                                    <i class="fa fa-star"></i>
+                                                }
+                                                @for (int i = 0; i < 5 - movie.Rate; i++)
+                                                {
+                                                    <i class="fa fa-star-o"></i>
+                                                }
+                                            </div> *@
+                                            <div>
+                                                <p>   </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <div id="slick-nav-1" class="products-slick-nav"></div>
+                    </div>
+                    <!-- /tab -->
+                </div>
+            </div>
+        </div>
+        <script src="~/User/js/jquery.min.js"></script>
+        <script src="~/User/js/bootstrap.min.js"></script>
+        <script src="~/User/js/slick.min.js"></script>
+        <script src="~/User/js/nouislider.min.js"></script>
+        <script src="~/User/js/jquery.zoom.min.js"></script>
+        <script src="~/User/js/main.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.products-slick').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 500,
+                    dots: true,
+                    infinite: true,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                infinite: true,
+                                dots: true
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+            });
+        </script>
+
+    </body>
+}
+else
+{
+    <p>Không tìm thấy phim nào phù hợp với từ khóa tìm kiếm.</p>
+}

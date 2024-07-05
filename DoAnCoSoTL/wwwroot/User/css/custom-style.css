@@ -1,0 +1,22 @@
+/* custom-style.css */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-select, .input, .search-btn {
+    margin: 0;
+}
+
+.input-select {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Khoảng cách giữa dropdown và input */
+}
+
+.input {
+    flex: 1 1 auto;
+}
+
+.search-btn {
+    flex: 0 0 auto;
+}

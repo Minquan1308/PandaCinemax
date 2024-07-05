@@ -1,0 +1,169 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Screening>
+
+@{
+    // Lấy ngày hiện tại
+    DateTime currentDate = DateTime.Today.Date;
+    // Tạo một danh sách các ngày từ hôm nay đến 1 tuần sau
+    List<DateTime> dateList = Enumerable.Range(0, 7)
+                                         .Select(offset => currentDate.AddDays(offset))
+                                         .ToList();
+}
+
+<div class="date-picker-v2">
+    <h2>Choose Date:</h2>
+    <select id="dateSelector" onchange="filterByDate()">
+        @foreach (var date in dateList)
+        {
+            <option value="@date.ToString("yyyy-MM-dd")">@date.ToShortDateString()</option>
+        }
+    </select>
+</div>
+
+<div class="screenings-container-v2">
+    @if (Model.Any())
+    {
+        <h1 style="text-align: center;">List Of Screenings</h1>
+
+        @foreach (var cinemaGroup in Model.OrderBy(s => s.Cinema.Name).GroupBy(s => s.CinemaId))
+        {
+            <div class="cinema-container-v2">
+                <h2 class="cinema-title-v2">@cinemaGroup.First().Cinema.Name</h2> <!-- Tiêu đề là tên của rạp chiếu phim -->
+                @foreach (var movieGroup in cinemaGroup.GroupBy(s => s.MovieId))
+                {
+                    <h3 class="movie-title-v2">@movieGroup.First().Movie.Name</h3>
+
+                    var screenings = movieGroup.ToList();
+                    var rowCount = (int)Math.Ceiling((double)screenings.Count / 4);
+
+                    @for (int i = 0; i < rowCount; i++)
+                    {
+                        <div class="row-v2">
+                            @for (int j = i * 4; j < Math.Min((i + 1) * 4, screenings.Count); j++)
+                            {
+                                var screening = screenings[j];
+                                var timeSlot = $"{screening.Time} - {screening.EndTime}";
+                                <form asp-controller="Screening" asp-action="ViewSeat" method="get">
+                                    <input type="hidden" name="roomId" value="@screening.RoomId" />
+                                    <input type="hidden" name="screeningId" value="@screening.Id" />
+                                    @* <input type="hidden" name="timeSlot" value="@timeSlot" /> *@
+                                    <input type="hidden" name="movieId" value="@screening.MovieId" />
+                                    <button type="submit" class="btn btn-primary time-slot" name="timeSlot" value="@timeSlot">@timeSlot</button>
+                                </form>
+                            }
+                        </div>
+                    }
+                }
+            </div>
+        }
+    }
+    else
+    {
+        <div class="no-screenings-v2">
+            <img src="/images/error/notfound.png" style="height:30vh; text-align:center; margin-left:10%;" />
+            <p>Lịch chiếu hiện đang trống.</p>
+        </div>
+    }
+</div>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .date-picker-v2 {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .date-picker-v2 h2 {
+            margin: 0;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+    #dateSelector {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+
+    .screenings-container-v2 {
+        padding: 0 20px;
+    }
+
+    .cinema-container-v2 {
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .cinema-title-v2 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .movie-title-v2 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .row-v2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .screening-info-v2 {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+        background-color: #f9f9f9;
+    }
+
+    .screening-time-v2 {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .screenings-header-v2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        margin: 5px; /* Add spacing between buttons */
+    }
+</style>
+
+<script>
+    function filterByDate() {
+        var selectedDate = document.getElementById("dateSelector").value;
+        window.location.href = "/Employee/Screening/Index?date=" + selectedDate;
+    }
+
+    window.onload = function () {
+        var dateSelector = document.getElementById("dateSelector");
+        var selectedDate = "@ViewBag.SelectedDate";
+        if (selectedDate) {
+            dateSelector.value = selectedDate;
+            document.getElementById("selectedDateDisplay").innerText = selectedDate;
+        }
+    };
+</script>

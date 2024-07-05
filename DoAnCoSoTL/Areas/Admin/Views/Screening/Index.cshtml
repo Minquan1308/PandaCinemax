@@ -1,0 +1,176 @@
+﻿ @model List<DoAnCoSoTL.Models.Screening>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="search-box pull-left mb-5">
+    <form asp-action="Index" asp-controller="Screening" method="get">
+        <input type="search" value="@ViewData["searching"]" name="Keyword" placeholder="Search for Screenings...">
+        <i class="ti-search"></i>
+        <input type="submit" style="display: none" />
+    </form>
+</div>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div class="container mt-5">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Movie</th>
+                <th scope="col">Cinema</th>
+                <th scope="col">Room</th>
+                <th scope="col">Screening Date</th>
+                <th scope="col">Start Time</th>
+                <th scope="col">End Time</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var screening in Model)
+            {
+                <tr>
+                    <td>@screening.Movie.Name</td>
+                    <td>@screening.Cinema.Name</td>
+                    <td>@screening.RoomId</td>
+                    <td>@screening.Date.ToString("MM/dd/yyyy")</td>
+                    <td>@screening.Time</td>
+                    <td>@screening.EndTime</td>
+                    <td>
+                        <a asp-action="Update" asp-controller="Screening" asp-route-id="@screening.Id"><i class="fa fa-edit"></i></a>
+                        <a href="javascript:void(0);" class="btn-delete" data-id="@screening.Id"><i class="ti-trash"></i></a>
+                        <a asp-action="Details" asp-controller="Screening" asp-route-id="@screening.Id"><i class="fa fa-arrow-circle-right"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (Model.Count == 0)
+    {
+        <img src="/images/error/notfound.png" style="height:50vh; text-align:center; margin-left:30%;" />
+        <a asp-action="Create" class="btn btn-warning font-weight-bold" style="color: white; width:70px; height:70px; border-radius:50%; text-align:center; padding: 2.5% 0;">Add <i class="fa fa-plus-circle"></i></a>
+    }
+    @if (Model.Count != 0)
+    {
+        <a asp-action="Create" class="btn btn-primary">Add <i class="fa fa-plus-circle"></i></a>
+    }
+</div>
+
+ <form id="delete-form" action="@Url.Action("Delete", "Screening")" method="post" style="display: none;">
+    <input type="hidden" name="id" value="" />
+</form>
+ 
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.btn-delete').click(function (e) {
+                e.preventDefault();
+                var deleteId = $(this).data('id');
+                if (confirm("Are you sure you want to delete this screening?")) {
+                    $.post('/Admin/Screening/Delete/' + deleteId)
+                        .done(function (response) {
+                            if (response.success) {
+                                console.log("Screening deleted successfully");
+                                window.location.reload();
+                            } else {
+                                alert(response.message);
+                            }
+                        })
+                        .fail(function (error) {
+                            console.error("This showtime has been booked and cannot be deleted", error);
+                            alert("This showtime has been booked and cannot be deleted.");
+                        });
+                }
+            });
+        });
+    </script>
+}
+ 
+@*  @model List<DoAnCoSoTL.Models.Screening>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="search-box pull-left mb-5">
+    <form asp-action="Index" asp-controller="Screening" method="get">
+        <input type="search" value="@ViewData["Keyword"]" name="Keyword" placeholder="Search for Screenings...">
+        <i class="ti-search"></i>
+        <input type="submit" style="display: none" />
+    </form>
+</div>
+
+<div class="container mt-5">
+    <table class="table table-hover">
+        <thead>
+        <thead>
+            <tr>
+                <th scope="col">Movie</th>
+                <th scope="col">Cinema</th>
+                <th scope="col">Screening Date</th>
+                <th scope="col">Start Time</th>
+                <th scope="col">End Time</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+
+        </thead>
+        <tbody>
+            @foreach (var screening in Model)
+            {
+                <tr>
+                    <td>@screening.Movie.Name</td>
+                    <td>@screening.Cinema.Name</td>
+                    <td>@screening.Date.ToString("MM/dd/yyyy")</td>
+                    <td>@screening.Time</td>
+                    <td>@screening.EndTime</td>
+                    <td>
+                        <a asp-action="Update" asp-controller="Screening" asp-route-id="@screening.Id"><i class="fa fa-edit"></i></a>
+                        <a href="javascript:void(0);" class="btn-delete" data-id="@screening.Id"><i class="ti-trash"></i></a>
+                        <a asp-action="Details" asp-controller="Screening" asp-route-id="@screening.Id"><i class="fa fa-arrow-circle-right"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (Model.Count == 0)
+    {
+        <img src="/images/error/notfound.png" style="height:50vh; text-align:center; margin-left:30%;" />
+        <a asp-action="Create" class="btn btn-warning font-weight-bold" style="color: white; width:70px; height:70px; border-radius:50%; text-align:center; padding: 2.5% 0;">Add <i class="fa fa-plus-circle"></i></a>
+    }
+    @if (Model.Count != 0)
+    {
+        <a asp-action="Create" class="btn btn-primary">Add <i class="fa fa-plus-circle"></i></a>
+    }
+</div>
+
+<form id="delete-form" action="@Url.Action("Delete", "Screening")" method="post" style="display: none;">
+    <input type="hidden" name="id" value="" />
+</form>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.btn-delete').click(function (e) {
+                e.preventDefault();
+                var deleteId = $(this).data('id');
+                if (confirm("Are you sure you want to delete this screening?")) {
+                    $.post('/Admin/Screening/Delete/' + deleteId)
+                        .done(function (data) {
+                            console.log(data);
+                            window.location.reload();
+                        })
+                        .fail(function (error) {
+                            console.error(error);
+                        });
+                }
+            });
+        });
+    </script>
+} *@

@@ -1,0 +1,177 @@
+﻿@model SeatBookingCart
+@{
+    var paymentMethods = ViewBag.PaymentMethods as List<SelectListItem>;
+    var Model1 = ViewData["Carts"] as SeatBookingCart;
+    var roomId = ViewData["RoomId"];
+    var screeningId = ViewData["ScreeningId"];
+    var timeSlot = ViewData["TimeSlot"];
+    var movieId = ViewData["MovieId"];
+}
+
+
+    <title>Giỏ hàng của bạn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .table {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            transition: background-color 0.3s;
+        }
+
+            .btn:hover {
+                background-color: #007bff;
+                color: #fff;
+            }
+
+                .btn:hover.btn-hover {
+                    transform: scale(1.1);
+                }
+
+    .btn-delete {
+        background-color: #d9534f;
+        color: #fff;
+        transition: background-color 0.3s;
+    }
+
+        /* Hiệu ứng sáng lên khi hover vào */
+        .btn-delete:hover {
+            background-color: #ff7e75;
+        }
+    /* CSS cho thanh chọn phương thức thanh toán */
+    .form-control {
+        width: 170px;
+    }
+
+    .btn-lg {
+        padding: 10px 20px;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    </style>
+<body>
+
+    <div class="container">
+        <h2>Giỏ hàng của bạn</h2>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Tên Phim</th>
+                        <th scope="col">Khung giờ</th>
+                        <th scope="col">Rạp</th>
+                        <th scope="col">Địa chỉ</th>
+                        <th scope="col">Số Ghế</th>
+                        <th scope="col">Giá</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr>
+                            <td>@item.MovieName</td>
+                            <td>@item.TimeSlot</td>
+                            <td>@item.CinemaName</td>
+                            <td>@item.CinemaLocation</td>
+                            <td>@item.SeatCode</td>
+                            <td>@item.Price</td>
+                            <td>
+                                <a class="btn btn-outline-light btn-sm btn-delete" asp-controller="SeatBookingCart" asp-action="RemoveFromCart" asp-route-seatId="@item.SeatId">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <form asp-action="Checkout" method="post">
+            <div class="form-group">
+                <label for="paymentMethod">Chọn phương thức thanh toán:</label>
+                <select class="form-control" id="paymentMethod" name="method">
+@foreach (var method in paymentMethods)
+                    {
+                        <option value="@method.Value">@method.Text</option>
+                    }
+                </select>
+            </div>
+
+            <button type="submit" name="method" class="btn btn-outline-light bg-blue btn-sm btn-lg">Thanh toán</button>
+            <button type="button" name="method" class="btn btn-outline-light bg-blue btn-sm btn-hover btn-lg" id="exitButton"
+                    data-screening-id="@screeningId" data-time-slot="@timeSlot" data-movie-id="@movieId" data-room-id="@roomId">
+                Hủy mua vé
+            </button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        $(document).ready(function () {
+            $('#exitButton').click(function () {
+                var screeningId = $(this).data('screening-id');
+                var timeSlot = $(this).data('time-slot');
+                var movieId = $(this).data('movie-id');
+                var roomId = $(this).data('room-id');
+
+                window.location.href = '@Url.Action("Choose", "Seat")?screeningId=' + screeningId + '&timeSlot=' + timeSlot + '&movieId=' + movieId + '&roomId=' + roomId;
+            });
+
+            $('#checkoutForm').submit(function (event) {
+                event.preventDefault();
+                var formData = $(this).serialize();
+
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("Checkout", "SeatBookingCart")',
+                    data: formData,
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({
+                                icon: 'success',
+                                title: response.message,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    window.location.href = '/SeatBookingCart/Index';
+                                }
+                            });
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Có lỗi xảy ra!',
+                                text: response.message,
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Có lỗi xảy ra!',
+                            text: 'Vui lòng thử lại sau.',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                });
+});
+        });
+    </script>
+
+</body>

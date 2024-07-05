@@ -1,0 +1,311 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Movie>
+
+@{
+    ViewData["Title"] = "Kết quả tìm kiếm ";
+}
+@{
+    // Phương thức để xác định lớp CSS dựa trên giá trị age
+    Func<string, string> getAgeClass = (age) =>
+    {
+        int ageValue;
+        if (int.TryParse(age, out ageValue))
+        {
+            if (ageValue >= 13 && ageValue <= 17)
+            {
+                return "age-orange"; // Áp dụng màu cam cho khoảng từ 13 đến 17 tuổi
+            }
+            else if (ageValue == 18)
+            {
+                return "age-red"; // Áp dụng màu đỏ cho độ tuổi 18
+            }
+        }
+        return "age-green"; // Áp dụng màu xanh lá cho các đối tượng khác
+    };
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 36px;
+        color: #333;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        position: relative;
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+        .section-title:before,
+        .section-title:after {
+            content: '';
+            width: 100px;
+            height: 2px;
+            background-color: #333;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .section-title:before {
+            left: -120px;
+        }
+
+        .section-title:after {
+            right: -120px;
+        }
+
+    .star-rating {
+        font-size: 18px;
+        color: orange;
+    }
+
+    .card-img-top {
+        position: relative;
+    }
+
+    .qty {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #fff;
+        padding: 2px 5px; /* Adjust padding for desired rectangle size */
+        border-radius: 5px; /* Optional: rounded corners */
+        font-weight: bold;
+        z-index: 1;
+        border: 1px solid #333; /* Border around the rectangle */
+    }
+
+    .card {
+        display: inline-block;
+        border: 1px solid #1e1f28;
+        margin-bottom: 20px;
+        width: 255px;
+        box-sizing: border-box;
+        border-radius: 15px; /* Điều chỉnh giá trị này để bo góc theo ý muốn */
+        overflow: hidden;
+        position: relative;
+    }
+
+        .card .shop-img img {
+            display: block;
+            width: 500px;
+            height: 400px;
+        }
+
+    .card-body {
+        padding: 15px; /* Thêm padding để tên phim không chạm vào ảnh */
+    }
+
+    .product-name {
+        color: #FFFAF0;
+        text-align: left;
+    }
+
+    .product-category,
+    .product-sold {
+        color: #CDC9C9;
+        text-align: left;
+    }
+
+    .product-name a {
+        color: #FFFAF0;
+        transition: color 0.3s;
+        margin-top: 10px;
+    }
+
+        .product-name a:hover {
+            color: red;
+        }
+
+    .slideshow-container {
+        position: relative;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .swiper-slide iframe {
+        width: 1000px;
+        height: 500px;
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 5s;
+    }
+
+    .age-orange {
+        background-color: orange; /* Màu cam */
+    }
+
+    .age-red {
+        background-color: red; /* Màu đỏ */
+    }
+
+    .age-green {
+        background-color: green; /* Màu xanh lá */
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="~/User/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="~/User/css/slick.css" />
+<link type="text/css" rel="stylesheet" href="~/User/css/slick-theme.css" />
+<link type="text/css" rel="stylesheet" href="~/User/css/nouislider.min.css" />
+<link rel="stylesheet" href="~/User/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="~/User/css/style.css" />
+<link type="text/css" rel="stylesheet" href="~/User/css/custom-style.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<h1 class="products-display-title p-3">Kết quả tìm kiếm</h1>
+
+@if (Model.Any())
+{
+    <body>
+        <div class="section" style="background-image: url('https://homepage.momocdn.net/img/momo-upload-api-210701105436-637607336767432408.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center bottom; background-color: rgba(0, 0, 0, 1);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="products-slick" data-nav="#slick-nav-1">
+                            @foreach (var movie in Model.OrderByDescending(s => s.TotalQuantitySold))
+                            {
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="qty @getAgeClass(movie.Age)">@movie.Age</div>
+                                        <div class="shop-img">
+                                            @if (!String.IsNullOrEmpty(movie.Image))
+                                            {
+                                                <img src="@movie.Image" alt="Product Image" style="width: 250px; height: 350px; display: block; margin: 0 auto;" />
+                                            }
+                                            else
+                                            {
+                                                <div class="card-img-top text-center">No Image</div>
+                                            }
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="product-name"><a asp-action="Display" asp-route-id="@movie.Id">@movie.Name</a></h4>
+                                            <p class="product-category">@movie.Category?.Name</p>
+                                            <p class="product-sold">Đã bán @movie.TotalQuantitySold</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <div id="slick-nav-1" class="products-slick-nav"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="~/User/js/jquery.min.js"></script>
+        <script src="~/User/js/bootstrap.min.js"></script>
+        <script src="~/User/js/slick.min.js"></script>
+        <script src="~/User/js/nouislider.min.js"></script>
+        <script src="~/User/js/jquery.zoom.min.js"></script>
+        <script src="~/User/js/main.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    on: {
+                        slideChange: function () {
+                            // Dừng tất cả các video khi chuyển slide
+                            $('.swiper-slide').find('iframe').each(function () {
+                                var iframeSrc = $(this).attr('src');
+                                $(this).attr('src', iframeSrc);
+                            });
+                        },
+                    },
+                });
+
+                $('.swiper-container').on('mouseenter', function () {
+                    swiper.autoplay.stop();
+                }).on('mouseleave', function () {
+                    swiper.autoplay.start();
+                });
+
+                $('.swiper-slide').click(function () {
+                    swiper.autoplay.stop();
+                });
+
+                $('video').on('play', function () {
+                    swiper.autoplay.stop();
+                });
+
+                $('.swiper-container').each(function () {
+                    var container = $(this);
+                    var slides = container.find('.swiper-slide');
+                    slides.each(function () {
+                        var slide = $(this);
+                        var iframe = slide.find('iframe');
+                        var trailerLink = slide.data('trailer');
+                        if (trailerLink) {
+                            var videoId = getYouTubeId(trailerLink);
+                            var embedUrl = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+                            iframe.attr('src', embedUrl);
+                        }
+                    });
+                });
+
+                function getYouTubeId(url) {
+                    var regExp = /^.*((youtube\.com\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+                    var match = url.match(regExp);
+                    return (match && match[7].length == 11) ? match[7] : false;
+                }
+
+                $('.products-slick').each(function () {
+                    var $this = $(this),
+                        $nav = $this.data('nav');
+
+                    $this.slick({
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        infinite: true,
+                        speed: 300,
+                        dots: false,
+                        arrows: true,
+                        appendArrows: $nav ? $($nav) : false,
+                        responsive: [{
+                            breakpoint: 991,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                            }
+                        }, {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                            }
+                        }]
+                    });
+                });
+            });
+        </script>
+
+    </body>
+}
+else
+{
+    <p>Không tìm thấy phim nào phù hợp với từ khóa tìm kiếm.</p>
+}

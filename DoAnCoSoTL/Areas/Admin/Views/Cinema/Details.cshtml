@@ -1,0 +1,25 @@
+﻿@model DoAnCoSoTL.Models.Cinema
+
+
+@{
+    Layout = "_AdminLayout";
+}
+<div class="container mt-5 " style="margin-left:20%">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                    <img src="@Model.Image" alt="Cinema Image" style="max-width: 300px;" />
+                }
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Name</h5>
+                    <p class="card-text">@Model.Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a asp-action="Index">Back to List</a>

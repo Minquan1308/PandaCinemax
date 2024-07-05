@@ -1,0 +1,90 @@
+﻿@model List<DoAnCoSoTL.Models.Actor>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="search-box pull-left mb-5">
+    <form asp-action="Index" asp-controller="Actor" method="get">
+        <input type="search" value=@ViewData["searching"] = Keyword; name="Keyword" placeholder="Search for Actors...">
+        <i class="ti-search"></i>
+        <input type="submit" style="display: none" />
+    </form>
+</div>
+
+<div class="container mt-5">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Bio</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                <tr>
+                    <th scope="row">@i.Id</th>
+                    <td>@i.Name</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(i.Image))
+                        {
+                            <img src="@i.Image"alt="Product Image" style="width: 200px; height: 200px;" />
+                        }
+                    </td>
+                    <td>@i.Bio</td>
+                    <td>
+                        <a asp-action="Update" asp-controller="Actor" asp-route-id="@i.Id"> <i class="fa fa-edit"></i></a>
+                       @*  <a asp-action="Delete" asp-route-id="@i.Id"> <i class="ti-trash"></i></a> *@
+                        <a href="~/Admin/Actor/Delete" class="btn-delete" data-id="@i.Id"><i class="ti-trash"></i></a>
+                        <a asp-action="Details" asp-route-id="@i.Id"><i class="fa fa-arrow-circle-right"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (Model.Count == 0)
+    {
+        <img src="/images/error/notfound.png" style="height:50vh; text-align:center; margin-left:30%;" />
+        <a asp-action="Create" class="btn btn-warning font-weight-bold" style=" color: white; width:70px; height:70px; border-radius:50%; text-align:center; padding: 2.5% 0;"> Add <i class="fa fa-plus-circle"></i></a>
+    }
+    @if (Model.Count != 0)
+    {
+        <a asp-action="Create" class="btn btn-primary"> Add <i class="fa fa-plus-circle"></i></a>
+
+    }
+</div>
+<form id="delete-form" action="@Url.Action("Delete", "Actor")" method="post" style="display: none;">
+    <input type="hidden" name="id" value="" />
+</form>
+
+@section Scripts {
+    <script>
+        // Hàm xử lý sự kiện cho nút thùng rác
+        $(document).ready(function () {
+            $('.btn-delete').click(function (e) {
+                e.preventDefault();
+                var deleteId = $(this).data('id');
+                if (confirm("Are you sure you want to delete this actor?")) {
+                    // Gửi yêu cầu xóa đến action "Delete" của controller "Category"
+                    $.post('/Admin/Actor/Delete/' + deleteId)
+                        .done(function (data) {
+                            // Xử lý kết quả trả về nếu cần
+                            console.log(data);
+                            // Reload trang hoặc làm gì đó khác sau khi xóa thành công
+                            window.location.reload();
+                        })
+                        .fail(function (error) {
+                            // Xử lý lỗi nếu có
+                            console.error(error);
+                            // Hiển thị thông báo lỗi cho người dùng nếu cần
+                        });
+                }
+            });
+        });
+
+    </script>
+}

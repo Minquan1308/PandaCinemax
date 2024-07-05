@@ -1,0 +1,73 @@
+﻿ @model List<DoAnCoSoTL.Models.SeatOrderDetail>
+
+@{
+    ViewData["Title"] = "Thông tin vé xem phim";
+    var soLuong = ViewData["SoLuong"];
+    var tongTien = ViewData["TongTien"];
+    var tenPhim = ViewData["TenPhim"];
+    var poster = ViewData["Poster"];
+    var orderDate = ViewData["OrderDate"];
+    var roomNumber = ViewData["RoomNumber"];
+    var cinemaName = ViewData["CinemaName"];
+    var seatNumbers = string.Join(",", Model.Select(d => d.SeatCode));
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .ticket-container {
+            max-width: 400px;
+            margin: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+            .header img {
+                max-width: 100%;
+                border-radius: 8px;
+            }
+
+        .details {
+            margin-bottom: 16px;
+        }
+
+            .details p {
+                margin: 4px 0;
+            }
+
+        .seat-list {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket-container">
+        <div class="header">
+            <h2>@cinemaName</h2>
+            <h3>@tenPhim</h3>
+            <img src="@poster" alt="Movie Poster">
+        </div>
+        <div class="details">
+            <p><strong>Thời gian:</strong> @orderDate</p>
+            <p><strong>Số lượng:</strong> @soLuong</p>
+            <p><strong>Tổng tiền:</strong> @tongTien VNĐ</p>
+            <p><strong>Phòng chiếu:</strong> @roomNumber</p>
+            <p><strong>Rạp chiếu:</strong> @cinemaName</p>
+            <p><strong>Số ghế:</strong> @seatNumbers</p>
+        </div>
+    </div>
+</body>
+</html>

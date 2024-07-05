@@ -1,0 +1,137 @@
+﻿@model DoAnCoSoTL.Models.Room
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Create Room";
+}
+
+<h1>Create Room</h1>
+
+<form id="addRoomForm" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="CinemaId" class="control-label">Cinema Name</label>
+        <select asp-for="CinemaId" id="CinemaId" class="form-control" asp-items="@ViewBag.Cinemas"></select>
+        <span asp-validation-for="CinemaId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="soHang">Number of Rows</label>
+        <input asp-for="soHang" id="soHang" class="form-control" />
+        <span asp-validation-for="soHang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="soCot">Number of Columns</label>
+        <input asp-for="soCot" id="soCot" class="form-control" />
+        <span asp-validation-for="soCot" class="text-danger"></span>
+    </div>
+    <div class="form-group d-flex">
+        <button type="submit" class="btn btn-primary mr-2" id="addButton">Add</button>
+        <button asp-action="RoomIndex" class="btn btn-success">Back</button>
+    </div>
+    <div class="preview-container">
+        <h3 class="preview-title">Preview</h3>
+        <div id="roomPreview" class="seat-layout">
+            <!-- This is where the seat layout will be displayed automatically -->
+        </div>
+    </div>
+</form>
+
+<style>
+    .room-preview {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .seat-layout {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .seat-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .seat-button {
+        width: 50px; /* Độ rộng của button */
+        height: 50px; /* Độ cao của button */
+        background-color: #fff; /* Màu nền của button */
+        border: 1px solid #000; /* Viền của button */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.3s; /* Thêm hiệu ứng chuyển đổi màu */
+    }
+
+        .seat-button:hover {
+            background-color: pink; /* Màu hồng khi hover */
+        }
+
+    .seat-text {
+        font-size: 16px; /* Kích thước font chữ trong button */
+    }
+
+    .preview-container {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .preview-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+</style>
+
+<script>
+        // Lắng nghe sự kiện khi người dùng nhập số hàng
+        document.getElementById("soHang").addEventListener("input", function () {
+            createSeatLayout();
+        });
+
+        // Lắng nghe sự kiện khi người dùng nhập số cột
+    document.getElementById("soCot").addEventListener("input", function () {
+            createSeatLayout();
+        });
+
+        // Hàm để tạo layout của các ghế dựa trên số hàng và số cột đã nhập
+        function createSeatLayout() {
+            var soHang = parseInt(document.getElementById("soHang").value);
+            var soCot = parseInt(document.getElementById("soCot").value);
+
+            var roomPreview = document.getElementById("roomPreview");
+            roomPreview.innerHTML = ""; // Xóa nội dung trước đó
+
+            var seatLayout = document.createElement("div");
+            seatLayout.className = "seat-layout";
+
+            for (var i = 1; i <= soHang; i++) {
+                var seatRow = document.createElement("div");
+                seatRow.className = "seat-row";
+
+                for (var j = 1; j <= soCot; j++) {
+                    var seatButton = document.createElement("button");
+                    seatButton.className = "seat-button";
+                    seatButton.textContent = String.fromCharCode(64 + i) + j; // Chuyển số thứ tự cột thành ký tự chữ cái và số
+                    seatButton.setAttribute("type", "button"); // Ngăn chặn hành động mặc định khi click
+
+                    seatRow.appendChild(seatButton);
+                }
+
+                seatLayout.appendChild(seatRow);
+            }
+
+            roomPreview.appendChild(seatLayout);
+
+            // Hiển thị nút "Add" sau khi tạo layout ghế
+            document.getElementById("addButton").style.display = "block";
+        }
+
+        document.getElementById("addRoomForm").addEventListener("submit", function (event) {
+            // Thực hiện bất kỳ kiểm tra hoặc hành động bổ sung nào trước khi gửi biểu mẫu nếu cần
+        });
+</script>

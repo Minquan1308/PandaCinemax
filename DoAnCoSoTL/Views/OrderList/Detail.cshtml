@@ -1,0 +1,82 @@
+﻿@model List<DoAnCoSoTL.Models.SeatOrderDetail>
+ @using System.Web
+@{
+    ViewData["Title"] = "Thông tin vé xem phim";
+    var soLuong = ViewData["SoLuong"];
+    var tongTien = ViewData["TongTien"];
+    var tenPhim = ViewData["TenPhim"];
+    var poster = ViewData["Poster"];
+    var orderDate = ViewData["OrderDate"];
+    var roomNumber = ViewData["RoomNumber"];
+    var cinemaName = ViewData["CinemaName"];
+    var seatNumbers = string.Join(",", Model.Select(d => d.SeatCode));
+    var timeSlot = ViewData["TimeSlot"];
+    var email = ViewData["UserEmail"];
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/order.css" />
+
+</head>
+<body>
+    <div class="ticket-container">
+        <div class="header">
+            <h2>@cinemaName</h2>
+            <h3>@tenPhim</h3>
+            <img src="@poster" alt="Movie Poster">
+        </div>
+        <div class="details">
+            <p><strong>Thời gian:</strong> @orderDate</p>
+            <p><strong>Số lượng:</strong> @soLuong</p>
+            <p><strong>Tổng tiền:</strong> @tongTien VNĐ</p>
+            <p><strong>Phòng chiếu:</strong> @roomNumber</p>
+            <p><strong>Rạp chiếu:</strong> @cinemaName</p>
+            <p><strong>Số ghế:</strong> @seatNumbers</p>
+            <p><strong>Khung giờ:</strong> @timeSlot</p>
+            <p><strong>Email :</strong> @email</p>
+        </div>
+    </div>
+    <div class="notification" id="paymentNotification">
+        <span class="icon">&#10004;</span> <!-- Dấu tick màu xanh lá -->
+        <span id="notificationMessage"></span>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Lấy danh sách các phần tử có class 'cinema-info'
+            var cinemaInfos = document.querySelectorAll('.cinema-info');
+
+            // Duyệt qua mỗi phần tử và thêm sự kiện click
+            cinemaInfos.forEach(function (cinemaInfo) {
+                cinemaInfo.addEventListener('click', function () {
+                    // Lấy orderId từ data-orderid
+                    var orderId = this.dataset.orderid;
+
+                    // Chuyển hướng tới action khác với tham số orderId
+                    window.location.href = '@Url.Action("Detail", "OrderList")' + '?orderId=' + orderId;
+                });
+            });
+
+            // Hiển thị thông báo nếu có Message từ TempData
+            var message = '@Html.Raw(HttpUtility.JavaScriptStringEncode(TempData["Message"] as string))';
+            if (message) {
+                var notification = document.getElementById('paymentNotification');
+                var notificationMessage = document.getElementById('notificationMessage');
+                notificationMessage.textContent = message;
+                notification.classList.add('show');
+                setTimeout(function () {
+                    notification.classList.remove('show');
+                    notification.classList.add('hide');
+                    setTimeout(function () {
+                        notification.style.display = 'none';
+                        notification.classList.remove('hide'); // Đảm bảo lớp 'hide' bị loại bỏ khi ẩn hoàn toàn
+                    }, 500); // Thời gian cho animation zoomOut
+                }, 4000); // Ẩn sau 4 giây
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+﻿@model DoAnCoSoTL.Models.Room
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Room Details";
+}
+
+<h2>Room Details</h2>
+
+<div>
+    <p><strong>Room ID:</strong> @Model.Id</p>
+</div>
+<div class="screen-divider">
+    <hr class="divider-line">
+    <div class="screen-text">Màn hình</div>
+</div>
+<div class="seat-layout">
+    @for (int row = 1; row <= Model.soHang; row++)
+    {
+        <div class="seat-row">
+            @for (int seatNumber = 1; seatNumber <= Model.soCot; seatNumber++)
+            {
+                string seatCode = $"{(char)('A' + row - 1)}{seatNumber}";
+                <button class="seat" data-seat-code="@seatCode">
+                    <span class="seat-text">@seatCode</span>
+                </button>
+            }
+        </div>
+    }
+</div>
+
+<style>
+    .seat-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .seat-row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .row-number {
+        width: 30px;
+        text-align: center;
+    }
+
+    .seat {
+        width: 40px; /* Độ rộng của button */
+        height: 40px; /* Độ cao của button */
+        border: 1px solid #000;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+        .seat:hover {
+            background-color: #add8e6;
+        }
+
+        .seat.selected {
+            background-color: pink; /* Đặt màu hồng cho nút đã được chọn */
+        }
+
+    .seat-text {
+        font-size: 16px; /* Kích thước font của chữ trong button */
+    }
+
+    .screen-divider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .divider-line {
+        width: 200px; /* Đặt độ rộng mong muốn của thanh ngang */
+        border: none;
+        border-top: 2px solid black;
+        margin-top: 10px;
+    }
+
+    .screen-text {
+        font-weight: bold;
+        margin-top: -30px; /* Điều chỉnh margin-top để chữ "Màn hình" nằm gần sát thanh ngang */
+        margin-bottom: 30px;
+    }
+
+    .legend {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .legend-item {
+        display: flex;
+        gap: 10px;
+    }
+
+    .seat-legend {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #000;
+    }
+
+        .seat-legend.pink {
+            background-color: pink;
+        }
+
+        .seat-legend.white {
+            background-color: #fff;
+        }
+
+        .seat-legend.gray {
+            background-color: gray;
+        }
+
+    .seat.gray.disabled {
+        background-color: gray;
+        pointer-events: none; /* Ngăn chặn sự kiện click */
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".seat").forEach(function (seat) {
+            seat.addEventListener("click", function () {
+                if (!seat.classList.contains("gray") && !seat.classList.contains("disabled")) {
+                    seat.classList.toggle("selected");
+                }
+            });
+        });
+    });
+</script>
+
+<div>
+    <a asp-action="RoomIndex" class="btn btn-success">Back</a>
+</div>

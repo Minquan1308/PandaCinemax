@@ -1,0 +1,62 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+
+<ul class="navbar-nav">
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="dropdown">
+            @* <button class="btn btn-secondary btn-outline-light bg-blue dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        @UserManager.GetUserName(User)!
+        </button> *@
+            <a class="nav-link text-white" style="color: whitesmoke" data-bs-toggle="dropdown" asp-area="Identity" asp-page="/Account/Manage/Index" role="button" title="Manage" aria-expanded="false">@UserManager.GetUserName(User)!</a>
+            @*  <a id="manage" class="nav-link text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@UserManager.GetUserName(User)!</a> *@
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                @* <li class="nav-item"> *@
+                @* <a class="dropdown-item" id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hồ sơ của tôi</a> *@
+                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                    <button id="logout" type="submit" class="nav-link btn btn-link text-white border-0">Hồ sơ của tôi</button>
+                </form>
+                @* <a id="manage" class="dropdown-item  " style="color:black ; text-align:center" asp-area="Admin" asp-controller="Movie" asp-action="Index"> Admin</a> *@
+
+                @if (User.IsInRole("Admin"))
+                {
+                    
+                        <form id="logoutForm" class="form-inline" asp-area="Admin" asp-controller="Movie" asp-action="Index">
+                            <button id="logout" type="submit" class="nav-link btn btn-link text-white border-0"> Admin</button>
+                        </form>
+                }
+                @if (User.IsInRole("Employee"))
+                {
+
+                        <form id="logoutForm" class="form-inline" asp-area="Employee" asp-controller="Screening" asp-action="Index">
+                            <button id="logout" type="submit" class="nav-link btn btn-link text-white border-0"> Employee</button>
+                        </form>  
+                }
+                @* <form id="logoutForm" class="form-inline" asp-area="Admin" asp-controller="Movie" asp-action="Index">
+                    <button id="logout" type="submit" class="nav-link btn btn-link text-white border-0"> Admin</button>
+                </form> *@
+                @*   </li> *@
+                @* <div class="dropdown-divider"></div> *@
+
+                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button id="logout" type="submit" class="nav-link btn btn-link text-white border-0">Đăng xuất</button>
+                </form>
+
+            </ul>
+        </div>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="btn btn-light mr-2 ml-2 btn-sm" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-light btn-sm" asp-area="Identity" asp-page="/Account/Register">Đăng ký</a>
+        </li>
+    }
+</ul>

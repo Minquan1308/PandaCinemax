@@ -1,0 +1,218 @@
+﻿ @model List<DoAnCoSoTL.Models.Seat>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+@{
+    ViewData["Title"] = "Chọn ghế";
+    var selectedSeatIds = ViewData["SelectedSeatIds"] as List<int> ?? new List<int>();
+    int row1 = ViewBag.Row ?? 0; // Sử dụng kiểu int để tránh lỗi
+    int number1 = ViewBag.Number ?? 0; // Sử dụng kiểu int để tránh lỗi
+    var movieId = ViewData["MovieId"];
+
+}
+<p> Phòng @ViewData["RoomId"]</p>
+<p> Phim: @ViewData["MovieName"]</p>
+<p> Khung giờ: @ViewData["TimeSlot"]</p>
+
+<div id="ticketPrice">Giá vé: $@ViewBag.TicketPrice</div>
+
+
+<a href="@Url.Action("Index", "Screening", new { area = "Employee" })" class="btn btn-secondary">Back</a>
+
+
+<div class="screen-divider">
+    <hr class="divider-line">
+    <div class="screen-text">Màn hình</div>
+</div>
+
+<div class="seat-layout">
+    @for (int row = 1; row <= row1; row++)
+    {
+        <div class="seat-row">
+            @for (int seatNumber = 1; seatNumber <= number1; seatNumber++)
+            {
+                string seatCode = $"{(char)('A' + row - 1)}{seatNumber}";
+                var seat = Model.FirstOrDefault(s => s.SeatCode == seatCode);
+                var isAvailable = seat != null && seat.IsAvailable;
+                var isSelected = selectedSeatIds.Contains(seat.Id);
+
+                <button class="seat @(isAvailable ? (isSelected ? "selected" : "") : "gray disabled")" data-seat-id="@seat.Id" data-seat-code="@seatCode">
+                    <span class="seat-text">@seatCode</span>
+                </button>
+            }
+        </div>
+    }
+</div>
+
+<div class="legend" style="margin-bottom: 20px;">
+    <div class="legend-item">
+        <div class="seat-legend pink"></div>
+        <span>Ghế đã chọn</span>
+    </div>
+    <div class="legend-item">
+        <div class="seat-legend white"></div>
+        <span>Ghế trống</span>
+    </div>
+    <div class="legend-item">
+        <div class="seat-legend gray"></div>
+        <span>Ghế đã được đặt</span>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.seat').click(function (event) {
+            var isAvailable = !$(this).hasClass('gray');
+            var seatId = $(this).data('seat-id');
+
+            if (isAvailable) {
+                $(this).toggleClass('selected');
+                if ($(this).hasClass('selected')) {
+                    addToCart(seatId);
+                } else {
+                    removeFromCart(seatId);
+                }
+            }
+            event.preventDefault();
+            updateTotalPrice();
+            updateSelectedSeats();
+        });
+
+        function addToCart(seatId) {
+            $.post('/SeatBookingCart/AddToCart', { seatId: seatId }, function () {
+                // Do nothing after adding to cart
+            });
+        }
+
+        function removeFromCart(seatId) {
+            $.post('/SeatBookingCart/RemoveFromCart', { seatId: seatId }, function () {
+                // Handle result from server if needed
+            });
+        }
+
+        function updateTotalPrice() {
+            var selectedSeatCount = $('.seat.selected').length;
+            var ticketPrice = parseFloat($('#ticketPrice').text().replace('Giá vé: $', ''));
+            var totalPrice = selectedSeatCount * ticketPrice;
+            $('#totalPrice').text('Tổng tiền: $' + totalPrice.toFixed(2));
+        }
+
+        function updateSelectedSeats() {
+            var selectedSeats = [];
+            $('.seat.selected').each(function () {
+                var seatText = $(this).find('.seat-text').text();
+                selectedSeats.push(seatText);
+            });
+            $('#selectedSeats').text('Số ghế đã chọn: ' + selectedSeats.join(', '));
+
+            // Update hidden input with selected seat IDs
+            var selectedSeatIds = $('.seat.selected').map(function () {
+                return $(this).data('seat-id');
+            }).get();
+            $('#selectedSeatIdsInput').val(selectedSeatIds.join(','));
+        }
+    });
+</script>
+
+
+
+<style>
+    .seat-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .seat-row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .row-number {
+        width: 30px;
+        text-align: center;
+    }
+
+    .seat {
+        width: 40px; /* Độ rộng của button */
+        height: 40px; /* Độ cao của button */
+        border: 1px solid #000;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+        .seat:hover {
+            background-color: #add8e6;
+        }
+
+        .seat.selected {
+            background-color: pink; /* Đặt màu hồng cho nút đã được chọn */
+        }
+
+
+    .seat-text {
+        font-size: 16px; /* Kích thước font của chữ trong button */
+    }
+
+    .screen-divider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .divider-line {
+        width: 200px; /* Đặt độ rộng mong muốn của thanh ngang */
+        border: none;
+        border-top: 2px solid black;
+        margin-top: 10px;
+    }
+
+    .screen-text {
+        font-weight: bold;
+        margin-top: -30px; /* Điều chỉnh margin-top để chữ "Màn hình" nằm gần sát thanh ngang */
+        margin-bottom: 30px;
+    }
+
+    .legend {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .legend-item {
+        display: flex;
+        gap: 10px;
+    }
+
+    .seat-legend {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #000;
+    }
+
+        .seat-legend.pink {
+            background-color: pink;
+        }
+
+        .seat-legend.white {
+            background-color: #fff;
+        }
+
+        .seat-legend.gray {
+            background-color: gray;
+        }
+
+    .seat.gray.disabled {
+        background-color: gray;
+        pointer-events: none; /* Ngăn chặn sự kiện click */
+    }
+</style>

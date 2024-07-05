@@ -1,0 +1,397 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Movie>
+@{
+    // Phương thức để xác định lớp CSS dựa trên giá trị age
+    Func<string, string> getAgeClass = (age) =>
+    {
+        int ageValue;
+        if (int.TryParse(age, out ageValue))
+        {
+            if (ageValue >= 13 && ageValue <= 16)
+            {
+                return "age-orange"; // Áp dụng màu cam cho khoảng từ 13 đến 16 tuổi
+            }
+            else if (ageValue == 18)
+            {
+                return "age-red"; // Áp dụng màu đỏ cho độ tuổi 18
+            }
+        }
+        if (age == "K")
+        {
+            return "age-blue";
+        }
+        return "age-green"; // Áp dụng màu xanh lá cho các đối tượng khác
+    };
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Display</title>
+    <!-- Include required CSS and JS files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="~/User/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/User/css/slick.css" />
+    <link type="text/css" rel="stylesheet" href="~/User/css/slick-theme.css" />
+    <link type="text/css" rel="stylesheet" href="~/User/css/nouislider.min.css" />
+    <link rel="stylesheet" href="~/User/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="~/User/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="~/User/css/custom-style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 36px;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            position: relative;
+            display: inline-block;
+            padding: 0 20px;
+        }
+
+            .section-title:before,
+            .section-title:after {
+                content: '';
+                width: 100px;
+                height: 2px;
+                background-color: #333;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .section-title:before {
+                left: -120px;
+            }
+
+            .section-title:after {
+                right: -120px;
+            }
+
+        .star-rating {
+            font-size: 18px;
+            color: orange;
+        }
+
+        .card-img-top {
+            position: relative;
+        }
+
+        .qty {
+            background-color: #fff;
+            padding: 2px 5px; /* Adjust padding for desired rectangle size */
+            border-radius: 5px; /* Optional: rounded corners */
+            font-weight: bold;
+            z-index: 1;
+            border: 1px solid #333; /* Border around the rectangle */
+        }
+
+        .card {
+            display: inline-block;
+            border: 1px solid #1e1f28;
+            margin-bottom: 20px;
+            width: 255px;
+            box-sizing: border-box;
+            border-radius: 15px; /* Điều chỉnh giá trị này để bo góc theo ý muốn */
+            overflow: hidden;
+            position: relative;
+        }
+
+            .card .shop-img img {
+                display: block;
+                width: 250px;
+                height: 350px;
+                margin: 0 auto;
+            }
+
+        .card-body {
+            padding: 15px; /* Thêm padding để tên phim không chạm vào ảnh */
+        }
+
+        .product-name {
+            color: #FFFAF0;
+            text-align: left;
+        }
+
+        .product-category,
+        .product-sold {
+            color: #CDC9C9;
+            text-align: left;
+        }
+
+        .product-name a {
+            color: #FFFAF0;
+            transition: color 0.3s;
+            margin-top: 10px;
+        }
+
+            .product-name a:hover {
+                color: red;
+            }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 100%; /* Full width */
+            margin: auto;
+        }
+
+        .swiper-slide img,
+        .swiper-slide iframe {
+            width: 100%;
+            height: 700px; /* Set height to 800px */
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 5s;
+        }
+
+        .age-orange {
+            background-color: orange; /* Màu cam */
+        }
+
+        .age-red {
+            background-color: red; /* Màu đỏ */
+        }
+
+        .age-blue {
+            background-color: dodgerblue; /* Màu đỏ */
+        }
+
+        .age-green {
+            background-color: green; /* Màu xanh lá */
+        }
+
+        .video-container {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 64px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+            .play-button:hover {
+                color: #ff0000;
+            }
+
+        /* New Styles for qty-container */
+        .qty-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            gap: 5px; /* Adjust this value to set the space between the labels */
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            @foreach (var movie in Model.OrderByDescending(m => m.StartDate).Take(3))
+            {
+                @if (!string.IsNullOrEmpty(movie.Trailer) && movie.StartDate.Date > DateTime.Now.Date)
+                {
+                    <div class="swiper-slide">
+                        <div class="video-container" data-trailer="@movie.Trailer">
+                            <img src="@movie.Image" alt="Movie Poster">
+                            <div class="play-button">&#9658;</div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <h2 class="section-title">Phim sắp chiếu</h2>
+    <div class="section" style="background-image: url('https://homepage.momocdn.net/img/momo-upload-api-230912110927-638301137672516955.jpeg'); background-size: cover; background-repeat: no-repeat; background-position: center center; background-color: rgba(0, 0, 0, 1);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="products-slick" data-nav="#slick-nav-2">
+                        @foreach (var movie in Model.OrderByDescending(s => s.StartDate))
+                        {
+                            @if (movie.StartDate > DateTime.Now)
+                            {
+                                TimeSpan dateDifference = movie.StartDate.Date - DateTime.Now.Date;
+                                <div class="col mb-4">
+                                    <div class="card upcoming-movie">
+                                        <div class="qty-container">
+                                            <div class="qty @getAgeClass(movie.Age)">@movie.Age</div>
+                                            @if (dateDifference.Days <= 3 || movie.StartDate.Date < DateTime.Now.Date)
+                                            {
+                                                <div class="qty">Đặt trước</div>
+                                            }
+                                        </div>
+                                        <div class="shop-img">
+                                            @if (!String.IsNullOrEmpty(movie.Image))
+                                            {
+                                                <img src="@movie.Image" alt="Product Image" style="width: 250px; height: 350px; display: block; margin: 0 auto;" />
+                                            }
+                                            else
+                                            {
+                                                <div class="card-img-top text-center">No Image</div>
+                                            }
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="product-name"><a asp-action="Display" asp-route-id="@movie.Id">@movie.Name</a></h4>
+                                            <p class="product-category">@movie.Category?.Name</p>
+                                            @*  <p class="product-sold">Khởi chiếu: @movie.StartDate.ToString("dd/MM/yyyy")</p> *@
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    <div id="slick-nav-2" class="products-slick-nav"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            var players = [];
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                on: {
+                    slideChange: function () {
+                        // Dừng tất cả các video khi chuyển slide
+                        players.forEach(function (player) {
+                            player.stopVideo();
+                        });
+                    },
+                },
+            });
+
+            $('.swiper-container').on('mouseenter', function () {
+                swiper.autoplay.stop();
+            }).on('mouseleave', function () {
+                swiper.autoplay.start();
+            });
+
+            $('.swiper-slide').click(function () {
+                swiper.autoplay.stop();
+            });
+
+            // Add click event to video container to replace it with iframe
+            $('.video-container').click(function () {
+                // Dừng tất cả các video khác trước khi phát video mới
+                players.forEach(function (player) {
+                    player.stopVideo();
+                });
+
+                var trailerLink = $(this).data('trailer');
+                var videoId = getYouTubeId(trailerLink);
+                var embedUrl = 'https://www.youtube.com/embed/' + videoId + '?enablejsapi=1&autoplay=1';
+                var iframe = $('<iframe>', {
+                    src: embedUrl,
+                    width: '100%',
+                    height: '800px',
+                    frameborder: 0,
+                    allow: 'autoplay; encrypted-media',
+                    allowfullscreen: true
+                });
+                $(this).replaceWith(iframe);
+
+                var player = new YT.Player(iframe[0], {
+                    events: {
+                        'onStateChange': function (event) {
+                            if (event.data == YT.PlayerState.PLAYING) {
+                                swiper.autoplay.stop();
+                            } else if (event.data == YT.PlayerState.PAUSED || event.data == YT.PlayerState.ENDED) {
+                                swiper.autoplay.start();
+                            }
+                        }
+                    }
+                });
+                players.push(player);
+            });
+
+            // Function to extract YouTube video ID
+            function getYouTubeId(url) {
+                var regExp = /^.*((youtube\.com\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+                var match = url.match(regExp);
+                return (match && match[7].length == 11) ? match[7] : false;
+            }
+
+            // Load YouTube IFrame API
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            window.onYouTubeIframeAPIReady = function () {
+                // API is ready
+            };
+
+            // Initialize slick carousel
+            $('.products-slick').each(function () {
+                var $this = $(this),
+                    $nav = $this.data('nav');
+
+                $this.slick({
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    infinite: true,
+                    speed: 300,
+                    dots: false,
+                    arrows: true,
+                    appendArrows: $nav ? $($nav) : false,
+                    responsive: [{
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    }, {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }]
+                });
+            });
+        });
+
+    </script>
+
+</body>
+</html>

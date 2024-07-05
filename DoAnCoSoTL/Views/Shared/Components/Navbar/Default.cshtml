@@ -1,0 +1,48 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Category>
+
+<style>
+    .dropdown-item {
+        color: #fff; /* Màu chữ */
+        background-color: #777777; /* Màu nền */
+    }
+
+        .dropdown-item:hover {
+            background-color: #222222; /* Màu nền khi hover */
+            color: #fff; /* Màu chữ khi hover */
+        }
+
+    .navbar {
+        background-color: #777777; /* Màu nền của Navbar */
+    }
+
+    .navbar-brand {
+        color: #fff; /* Màu chữ của Brand */
+        font-weight: bold; /* Đậm */
+    }
+
+    .nav-link {
+        color: #fff; /* Màu chữ của các liên kết */
+        font-weight: bold; /* Đậm */
+    }
+
+        .nav-link:hover {
+            color: #fff; /* Màu chữ khi hover */
+        }
+
+</style>
+<nav>
+    <div class="dropdown">
+        <button class="btn btn-secondaryx btn-outline-light bg-blue dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Thể loại <i class="fa fa-caret-down"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            @if (Model != null)
+            {
+                @foreach (var category in Model)
+                {
+                    <li><a class="dropdown-item" href="@Url.Action("FilterByCategory", "Movie", new { categoryId = category.Id })">@category.Name</a></li>
+                }
+            }
+        </ul>
+    </div>
+</nav>

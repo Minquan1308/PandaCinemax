@@ -1,0 +1,323 @@
+﻿@model DoAnCoSoTL.Models.Screening
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container mt-5">
+    <h2>Create New Screening</h2>
+    <hr />
+    <!-- Thêm phần hiển thị thông báo -->
+    <div id="message"></div>
+
+    <form asp-action="Create" asp-controller="Screening" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="MovieId" class="control-label">Movie Name</label>
+            <select asp-for="MovieId" id="MovieId" class="form-control" asp-items="@ViewBag.Movies"></select>
+            <span asp-validation-for="MovieId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CinemaId" class="control-label">Cinema Name</label>
+            <!-- Dropdown list cho danh sách rạp chiếu -->
+            <select asp-for="CinemaId" id="CinemaId" class="form-control"></select>
+            <span asp-validation-for="CinemaId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="RoomId" class="control-label">Room</label>
+            <!-- Dropdown list cho danh phòng -->
+            <select asp-for="RoomId" id="RoomId" class="form-control"></select>
+            <span asp-validation-for="RoomId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Date" class="control-label"></label>
+            <input id="screeningDate" asp-for="Date" class="form-control" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Time" class="control-label">Start Time (hh:mm)</label>
+            <input asp-for="Time" id="timeInput" class="form-control" type="text" />
+            <span asp-validation-for="Time" class="text-danger"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="EndTime" class="control-label">EndTime</label>
+            <input asp-for="EndTime" id="endTimeInput" class="form-control" readonly />
+            <span asp-validation-for="EndTime" class="text-danger"></span>
+        </div>
+        <input type="hidden" id="startDate" />
+        <input type="hidden" id="endDate" />
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+    </form>
+</div>
+@section Scripts {
+    <script>
+        function parseTimeToTimeSpan(timeString) {
+            var timeParts = timeString.split(' ');
+            var time = timeParts[0];
+            var ampm = timeParts[1];
+
+            var timeParts2 = time.split(':');
+            var hours = parseInt(timeParts2[0]);
+            var minutes = parseInt(timeParts2[1]);
+
+            if (ampm === 'PM' && hours < 12) {
+                hours += 12;
+            }
+            if (ampm === 'AM' && hours === 12) {
+                hours = 0;
+            }
+
+            return {
+                hours: hours,
+                minutes: minutes
+            };
+        }
+        function calculateEndTime(startTime, durationMinutes) {
+            // Phân tích thời gian bắt đầu thành giờ và phút
+            var startTimeParts = startTime.split(':');
+            var startHours = parseInt(startTimeParts[0]);
+            var startMinutes = parseInt(startTimeParts[1]);
+
+            // Tính tổng thời gian dựa trên thời gian bắt đầu và thời lượng phim
+            var totalMinutes = startHours * 60 + startMinutes + durationMinutes;
+
+            // Chuyển đổi thành giờ và phút
+            var endHours = Math.floor(totalMinutes / 60) % 24;
+            var endMinutes = totalMinutes % 60;
+
+            // Định dạng giờ và phút thành chuỗi với định dạng "hh:mm"
+            var formattedEndHours = endHours.toString().padStart(2, '0'); // Đảm bảo định dạng hai chữ số
+            var formattedEndMinutes = endMinutes.toString().padStart(2, '0'); // Đảm bảo định dạng hai chữ số
+
+            // Tạo chuỗi kết quả
+            var endTime = formattedEndHours + ':' + formattedEndMinutes;
+            return endTime;
+        }
+
+        
+            // Function to get rooms for the selected cinema
+        function getSelectedRooms(selectedCinemaId) {
+            $.ajax({
+                url: '@Url.Action("GetSelectedRooms", "Cinema")',
+                type: 'POST',
+                data: { cinemaId: selectedCinemaId },
+                success: function (response) {
+                    $('#RoomId').empty(); // Clear the room dropdown
+                    $.each(response, function (i, room) {
+                        // Populate the room dropdown with room IDs
+                        $('#RoomId').append($('<option>').text(room.id).attr('value', room.id));
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error retrieving rooms:', error);
+                }
+            });
+
+        }
+
+        // Function to load rooms on page load
+        function loadInitialRooms() {
+            var selectedCinemaId = $('#CinemaId').val();
+            getSelectedRooms(selectedCinemaId);
+        }
+
+        // Load rooms for the initially selected cinema on page load
+        $(document).ready(function () {
+            loadInitialRooms();
+        });
+
+        // Function to update rooms when cinema selection changes
+        $(document).ready(function () {
+            $('#CinemaId').on('change', function () {
+                var selectedCinemaId = $(this).val(); // Get the selected cinema ID
+                getSelectedRooms(selectedCinemaId); // Call the function to get rooms for the selected cinema
+            });
+
+        });
+
+        // Function to get film dates based on selected movie
+        function getFilmDates(movieId) {
+            $.ajax({
+                url: '/Admin/Screening/GetFilmDates',
+                type: 'GET',
+                data: { movieId: movieId },
+                success: function (data) {
+                    $('#startDate').val(data.startDate);
+                    $('#endDate').val(data.endDate);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error retrieving film dates:', error);
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            // Function to update cinemas when movie selection changes
+            $('#MovieId').on('input', function () {
+                var selectedMovieId = $(this).val(); // Lấy movieId từ dropdown "Movie Name"
+                getFilmDates(selectedMovieId);
+            });
+
+            // Lấy movieId từ dropdown "Movie Name" khi trang được tải ban đầu
+            var selectedMovieId = $('#MovieId').val();
+            getFilmDates(selectedMovieId); // Gửi yêu cầu AJAX để cập nhật danh sách rạp chiếu
+        });
+
+        // Function to get movie duration and calculate end time
+        $(document).ready(function () {
+            $('#timeInput').change(function () {
+                var selectedMovieId = $('#MovieId').val();
+                var startTime = $('#timeInput').val(); // Lấy thời gian bắt đầu từ input
+
+                // Gửi yêu cầu AJAX để lấy thời lượng của bộ phim
+                $.ajax({
+                    url: '/Admin/Screening/GetMovieDuration',
+                    type: 'GET',
+                    data: { movieId: selectedMovieId },
+                    success: function (durationMinutes) {
+                        if (!isNaN(durationMinutes)) {
+                            // Tính toán thời gian kết thúc dựa trên thời gian bắt đầu và thời lượng phim
+                            var endTime = calculateEndTime(startTime, durationMinutes);
+
+                            // Đảm bảo định dạng lại endTime theo chuẩn "hh:mm"
+                            var formattedEndTime = formatTime(endTime);
+
+                            $('#endTimeInput').val(formattedEndTime);
+                        } else {
+                            alert('Unable to retrieve movie duration or duration is invalid.');
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error retrieving movie duration:', error);
+                    }
+                });
+            });
+        });
+
+        // Hàm định dạng thời gian theo chuẩn "hh:mm tt"
+        function formatTime(time) {
+            var timeParts = time.split(':');
+            var hours = parseInt(timeParts[0]);
+            var minutes = parseInt(timeParts[1]);
+
+            var formattedTime = hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
+
+            return formattedTime;
+        }
+
+        // Function to validate screening date
+        function validateScreeningDate(screeningDate, startDate, endDate) {
+            var screeningDateObj = new Date(screeningDate);
+            var startDateObj = new Date(startDate);
+            var endDateObj = new Date(endDate);
+
+            if (screeningDateObj >= startDateObj && screeningDateObj <= endDateObj) {
+                return true; // Screening date is valid
+            } else {
+                return false; // Screening date is invalid
+            }
+        }
+
+        $(document).ready(function () {
+            var isMessageVisible = false;
+
+            function validateScreeningDate(screeningDate, startDate, endDate) {
+                var screeningDateObj = new Date(screeningDate);
+                var startDateObj = new Date(startDate);
+                var endDateObj = new Date(endDate);
+
+                return screeningDateObj >= startDateObj && screeningDateObj <= endDateObj;
+            }
+
+            $('#screeningDate').change(function () {
+                var screeningDate = $(this).val();
+                var startDate = $('#startDate').val();
+                var endDate = $('#endDate').val();
+
+                var isValidDate = validateScreeningDate(screeningDate, startDate, endDate);
+                if (!isValidDate) {
+                    $('#message').html('<div class="alert alert-danger" role="alert">Screening date must be within the start and end dates of the movie.</div>');
+                    isMessageVisible = true;
+                } else {
+                    if (isMessageVisible) {
+                        $('#message').empty();
+                        isMessageVisible = false;
+                    }
+                }
+            });
+        });
+
+        function getSelectedCinemas(selectedMovieId) {
+            $.ajax({
+                url: '/Admin/Screening/GetSelectedCinemas',
+                type: 'POST',
+                data: { movieId: selectedMovieId },
+                success: function (response) {
+                    // Nếu yêu cầu thành công, cập nhật dropdown list cho rạp chiếu
+                    $('#CinemaId').empty();
+                    $.each(response, function (i, cinema) {
+                        $('#CinemaId').append($('<option>').text(cinema.name).attr('value', cinema.id));
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error retrieving cinemas:', error);
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            // Function to update cinemas when movie selection changes
+            $('#MovieId').on('input', function () {
+                var selectedMovieId = $(this).val(); // Lấy movieId từ dropdown "Movie Name"
+                getSelectedCinemas(selectedMovieId); // Gửi yêu cầu AJAX để cập nhật danh sách rạp chiếu
+            });
+
+            // Lấy movieId từ dropdown "Movie Name" khi trang được tải ban đầu
+            var selectedMovieId = $('#MovieId').val();
+            getSelectedCinemas(selectedMovieId); // Gửi yêu cầu AJAX để cập nhật danh sách rạp chiếu
+        });
+
+        // Hàm kiểm tra xem ngày chiếu có nằm trong khoảng ngày khởi chiếu và kết thúc của bộ phim không
+        function validateScreeningDate(screeningDate, startDate, endDate) {
+            // Chuyển đổi ngày thành đối tượng Date
+            var screeningDateObj = new Date(screeningDate);
+            var startDateObj = new Date(startDate);
+            var endDateObj = new Date(endDate);
+
+            // Loại bỏ phần thời gian trong các đối tượng Date để so sánh ngày
+            screeningDateObj.setHours(0, 0, 0, 0);
+            startDateObj.setHours(0, 0, 0, 0);
+            endDateObj.setHours(0, 0, 0, 0);
+
+            // Kiểm tra xem ngày chiếu có nằm trong khoảng ngày khởi chiếu và kết thúc của bộ phim không
+            if (screeningDateObj >= startDateObj && screeningDateObj <= endDateObj) {
+                return true; // Ngày chiếu hợp lệ
+            } else {
+                return false; // Ngày chiếu không hợp lệ
+            }
+        }
+
+        // Bắt sự kiện khi thay đổi ngày chiếu phim
+        $('#screeningDate').change(function () {
+            var screeningDate = $(this).val(); // Lấy ngày chiếu phim từ input
+
+            // Lấy ngày khởi chiếu và ngày kết thúc của bộ phim từ các trường ẩn
+            var startDate = $('#startDate').val();
+            var endDate = $('#endDate').val();
+
+            // Kiểm tra ngày chiếu có hợp lệ không
+            var isValidDate = validateScreeningDate(screeningDate, startDate, endDate);
+            if (!isValidDate) {
+                // Hiển thị thông báo khi ngày chiếu không hợp lệ
+                $('#message').html('<div class="alert alert-danger" role="alert">Ngày chiếu phải nằm trong khoảng ngày khởi chiếu và kết thúc của bộ phim.</div>');
+            } else {
+                // Xóa thông báo nếu ngày chiếu hợp lệ
+                $('#message').empty();
+            }
+        });
+    </script>
+}

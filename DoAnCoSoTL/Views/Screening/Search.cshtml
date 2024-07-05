@@ -1,0 +1,236 @@
+﻿@model List<DoAnCoSoTL.Models.Screening>
+
+@{
+    // Lấy ngày hiện tại
+    DateTime currentDate = DateTime.Today.Date;
+    // Tạo một danh sách các ngày từ hôm nay đến 1 tuần sau
+    List<DateTime> dateList = Enumerable.Range(0, 7)
+                                         .Select(offset => currentDate.AddDays(offset))
+                                         .ToList();
+    var cinemas = ViewBag.Cinemas as List<DoAnCoSoTL.Models.Cinema>;
+    var selectedDate = ViewBag.SelectedDate ?? currentDate;
+    var selectedCinemaId = ViewBag.SelectedCinemaId ?? (cinemas?.FirstOrDefault()?.Id ?? 0); // Sử dụng rạp đầu tiên nếu chưa có rạp được chọn
+}
+
+<div class="cinema-selection">
+    <ul>
+        @if (cinemas != null && cinemas.Any())
+        {
+            @foreach (var cinema in cinemas)
+            {
+                <li class="cinema-item @(selectedCinemaId == cinema.Id ? "selected" : "")">
+                    <a href="javascript:void(0);" onclick="submitCinemaForm(@cinema.Id)">
+                        @cinema.Name
+                    </a>
+                </li>
+            }
+        }
+        else
+        {
+            <li>Không có rạp chiếu phim nào</li>
+        }
+    </ul>
+</div>
+
+<div class="date-picker">
+    <ul>
+        @foreach (var date in dateList)
+        {
+            <li class="date-item @(date == selectedDate ? "selected" : "")">
+                <a href="javascript:void(0);" onclick="submitDateForm('@date.ToString("yyyy-MM-dd")')">
+                    @date.ToString("dd") <br />
+                    <span>@date.ToString("ddd")</span>
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="screenings">
+    @if (Model != null && Model.Any())
+    {
+        var screeningsByMovie = Model.GroupBy(s => s.Movie).ToList();
+        foreach (var group in screeningsByMovie)
+        {
+            var movie = group.Key;
+            <div class="movie-group">
+                <img src="@movie.Image" alt="@movie.Name" width="200px" height="300px" />
+                <div>
+                    <h3>@movie.Name</h3>
+                    <p>@movie.Category.Name</p>
+                    <div class="screening-times">
+                        @foreach (var screening in group)
+                        {
+                            var timeSlot = $"{screening.Time:HH:mm} - {screening.EndTime:HH:mm}";
+                            <form asp-controller="Seat" asp-action="Choose" method="get">
+                                <input type="hidden" name="roomId" value="@screening.RoomId" />
+                                <input type="hidden" name="screeningId" value="@screening.Id" />
+                                <input type="hidden" name="movieId" value="@screening.MovieId" />
+                                @* <input type ="hidden" name="timeSlot" value="@timeSlot" /> *@
+                                <button type="submit" class="btn btn-primary time-slot" name="timeSlot" value="@timeSlot">@timeSlot</button>
+                            </form>
+
+
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="no-screenings">
+            <img src="/images/error/notfound.png" style="height:30vh; text-align:center; margin-left:10%;" />
+            <p>Lịch chiếu hiện đang trống.</p>
+        </div>
+    }
+</div>
+
+<form id="cinemaForm" method="post" action="/Screening/Search">
+    <input type="hidden" name="id" id="cinemaId" value="@selectedCinemaId" />
+    <input type="hidden" name="date" id="selectedDate" value="@selectedDate.ToString("yyyy-MM-dd")" />
+</form>
+
+<form id="dateForm" method="post" action="/Screening/Search">
+    <input type="hidden" name="id" value="@selectedCinemaId" />
+    <input type="hidden" name="date" id="formDate" value="@selectedDate.ToString("yyyy-MM-dd")" />
+</form>
+
+<input type="hidden" id="selectedDateHidden" value="@selectedDate.ToString("yyyy-MM-dd")" />
+
+<script>
+    function submitCinemaForm(cinemaId) {
+        document.getElementById('cinemaId').value = cinemaId;
+        document.getElementById('cinemaForm').submit();
+    }
+
+    function submitDateForm(date) {
+        document.getElementById('formDate').value = date;
+        document.getElementById('dateForm').submit();
+    }
+</script>
+
+<style>
+    .cinema-selection, .date-picker, .screenings {
+        display: flex;
+        justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+        align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+        margin: 20px 0;
+    }
+
+        .cinema-selection ul /*,  .date-picker ul */ {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .cinema-selection li /* ,.date-picker li */ {
+            display: inline-block;
+        }
+
+    .cinema-item a /* ,.date-item a */ {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        color: #000;
+        transition: background-color 0.3s;
+        text-align: center;
+    }
+
+    .cinema-selection {
+        margin-bottom: 10px; /* Rút ngắn khoảng cách phía dưới của .cinema-selection */
+    }
+
+    .date-picker {
+        margin-top: 10px; /* Rút ngắn khoảng cách phía trên của .date-picker */
+    }
+
+        .date-picker ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            margin-left: 20px; /* Cách lề trái cho danh sách ngày */
+        }
+
+        .date-picker li {
+            display: inline-block;
+        }
+
+    .date-item a {
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        color: #000;
+        display: block;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+
+    .cinema-item.selected a, .date-item.selected a {
+        background-color: #d9534f;
+        color: #fff;
+    }
+
+    .cinema-item a:hover, .date-item a:hover {
+        background-color: #ddd;
+    }
+
+    .screenings {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-group {
+        margin-bottom: 20px;
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        width: 80%; /* Giới hạn chiều rộng của nhóm phim để căn giữa */
+    }
+
+        .movie-group img {
+            margin-right: 20px;
+        }
+
+    .movie-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screening-times {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Tạo khoảng cách giữa các button giờ chiếu */
+    }
+
+    .screening-form {
+        margin: 0;
+    }
+
+    .time-slot {
+        display: block;
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        transition: background-color 0.3s;
+    }
+
+        .time-slot:hover {
+            background-color: #0056b3;
+        }
+
+    .no-screenings {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>

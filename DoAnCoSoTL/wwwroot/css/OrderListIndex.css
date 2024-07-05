@@ -1,0 +1,76 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Thêm font-family để cải thiện giao diện */
+}
+
+.ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1000px; /* Tăng chiều rộng của box chứa các ticket-item để hiển thị 5 item mỗi hàng */
+    padding: 0 16px;
+    margin: 0 auto; /* Canh giữa container */
+}
+
+.ticket-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center; /* Canh giữa tiêu đề */
+}
+
+.ticket-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Khoảng cách giữa các ticket-item */
+    justify-content: flex-start; /* Căn lề trái */
+}
+
+.ticket-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm shadow */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+    width: calc(20% - 16px); /* Điều chỉnh chiều rộng của mỗi ticket-item để vừa 5 item mỗi hàng */
+    box-sizing: border-box; /* Đảm bảo padding không làm ảnh hưởng đến chiều rộng */
+}
+
+.cinema-info {
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+    .cinema-info:hover {
+        background-color: #d9534f;
+        color: #fff; /* Màu chữ trắng khi hover */
+    }
+
+.cinema-name {
+    font-weight: bold;
+}
+
+.movie-title {
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+    .ticket-item {
+        width: calc(50% - 16px); /* Chỉnh lại chiều rộng khi trên thiết bị nhỏ hơn */
+    }
+}
+
+@media (max-width: 480px) {
+    .ticket-item {
+        width: calc(100% - 16px); /* Chỉnh lại chiều rộng khi trên thiết bị nhỏ nhất */
+    }
+}

@@ -1,0 +1,221 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Screening>
+@using System.Web
+
+@{
+    string cinemaName = ViewBag.Cinema ?? ""; // Khởi tạo biến để lưu trữ tên rạp chiếu
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách suất chiếu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/order.css" />
+    <link rel="stylesheet" href="~/css/TicketSale.css" />
+    <style>
+        .cinema-selection, .date-picker, .screenings {
+            display: flex;
+            justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+            align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+            margin: 20px 0;
+        }
+
+            .cinema-selection ul /*,  .date-picker ul */ {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                gap: 10px;
+            }
+
+            .cinema-selection li /* ,.date-picker li */ {
+                display: inline-block;
+            }
+
+        .cinema-item a /* ,.date-item a */ {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            color: #000;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+
+        .cinema-selection {
+            margin-bottom: 10px; /* Rút ngắn khoảng cách phía dưới của .cinema-selection */
+        }
+
+        .date-picker {
+            margin-top: 10px; /* Rút ngắn khoảng cách phía trên của .date-picker */
+        }
+
+            .date-picker ul {
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                gap: 10px;
+                margin: 20px 0;
+                margin-left: 20px; /* Cách lề trái cho danh sách ngày */
+            }
+
+            .date-picker li {
+                display: inline-block;
+            }
+
+        .date-item a {
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            color: #000;
+            display: block;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+
+        .screenings {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .movie-group {
+            margin-bottom: 20px;
+            display: flex;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            width: 80%; /* Giới hạn chiều rộng của nhóm phim để căn giữa */
+        }
+
+        .movie-container {
+            display: flex;
+            align-items: flex-start; /* Căn chỉnh phần tử theo chiều dọc tại đầu */
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            width: 80%; /* Giới hạn chiều rộng của nhóm phim để căn giữa */
+        }
+
+            .movie-container img {
+                margin-right: 20px; /* Khoảng cách giữa hình ảnh và nội dung */
+            }
+
+        .movie-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Đảm bảo nội dung căn trái */
+        }
+
+
+
+            .movie-group img {
+                margin-right: 20px;
+            }
+
+        .movie-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .screening-times {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Tạo khoảng cách giữa các button giờ chiếu */
+        }
+
+        .screening-form {
+            margin: 0;
+        }
+
+        .time-slot {
+            display: block;
+            text-decoration: none;
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+            .time-slot:hover {
+                background-color: #0056b3;
+            }
+
+        .no-screenings {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .movie-name {
+            font-size: 30px; /* Ví dụ về kích thước chữ */
+            color: #333; /* Ví dụ về màu chữ */
+            font-weight: bold; /* Đậm chữ */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="cinema-title">@cinemaName</h1> <!-- Hiển thị tên rạp chiếu -->
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var movieGroup in Model.GroupBy(s => s.MovieId))
+            {
+                var movie = movieGroup.First().Movie;
+                <div class="movie-container">
+                    <img src="@movie.Image" alt="@movie.Name" width="200px" height="300px" />
+                    <div>
+                        <h3 class="movie-name">@movie.Name</h3>
+                        <p>@movie.Category.Name</p> 
+                        <div class="screening-times">
+                            @foreach (var screening in movieGroup)
+                            {
+                                var timeSlot = $"{screening.Time:HH:mm} - {screening.EndTime:HH:mm}";
+                                <form asp-controller="Seat" asp-action="Choose" asp-area="" method="get">
+                                    <input type="hidden" name="roomId" value="@screening.RoomId" />
+                                    <input type="hidden" name="screeningId" value="@screening.Id" />
+                                    <input type="hidden" name="movieId" value="@screening.MovieId" />
+                                    @* <input type ="hidden" name="timeSlot" value="@timeSlot" /> *@
+                                    <button type="submit" class="btn btn-primary time-slot" name="timeSlot" value="@timeSlot">@timeSlot</button>
+                                </form>
+
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <h1 class="text-center">No Screening Today</h1>
+        }
+    </div>
+    <div class="notification" id="paymentNotification">
+        <span class="icon">&#10004;</span> <!-- Dấu tick màu xanh lá -->
+        <span id="notificationMessage"></span>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {  
+            // Hiển thị thông báo nếu có Message từ TempData
+            var message = '@Html.Raw(HttpUtility.JavaScriptStringEncode(TempData["Message"] as string))';
+            if (message) {
+                var notification = document.getElementById('paymentNotification');
+                var notificationMessage = document.getElementById('notificationMessage');
+                notificationMessage.textContent = message;
+                notification.style.display = 'block';
+                setTimeout(function () {
+                    notification.style.opacity = '0';
+                    setTimeout(function () {
+                        notification.style.display = 'none';
+                        notification.style.opacity = '1';
+                    }, 500); // Thời gian cho animation fadeOut
+                }, 4000); // Ẩn sau 4 giây
+            }
+        });
+    </script>
+</body>
+</html>

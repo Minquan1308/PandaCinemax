@@ -1,0 +1,254 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .ezy__signin6 {
+            /* Bootstrap variables */
+            --bs-body-color: #333b7b;
+            --bs-body-bg: rgb(255, 255, 255);
+            /* Easy Frontend variables */
+            --ezy-theme-color: rgb(13, 110, 253);
+            --ezy-theme-color-rgb: 13, 110, 253;
+            --ezy-form-card-bg: #ffffff;
+            --ezy-form-card-shadow: none;
+            background-color: var(--bs-body-bg);
+            padding: 40px 0;
+            overflow: hidden;
+        }
+
+            /* Gray Block Style */
+            .gray .ezy__signin6,
+            .ezy__signin6.gray {
+                /* Bootstrap variables */
+                --bs-body-bg: rgb(246, 246, 246);
+                /* Easy Frontend variables */
+                --ezy-form-card-bg: #f6f6f6;
+                --ezy-form-card-shadow: none;
+            }
+
+            /* Dark Gray Block Style */
+            .dark-gray .ezy__signin6,
+            .ezy__signin6.dark-gray {
+                /* Bootstrap variables */
+                --bs-body-color: #ffffff;
+                --bs-body-bg: rgb(30, 39, 53);
+                --bs-dark-rgb: 255, 255, 255;
+                /* Easy Frontend variables */
+                --ezy-form-card-bg: #253140;
+                --ezy-form-card-shadow: none;
+            }
+
+            /* Dark Block Style */
+            .dark .ezy__signin6,
+            .ezy__signin6.dark {
+                /* Bootstrap variables */
+                --bs-body-color: #ffffff;
+                --bs-body-bg: rgb(11, 23, 39);
+                --bs-dark-rgb: 255, 255, 255;
+                /* Easy Frontend variables */
+                --ezy-form-card-bg: #162231;
+                --ezy-form-card-shadow: none;
+            }
+
+            .ezy__signin6 .container {
+                min-height: 100vh;
+            }
+
+        .ezy__signin6-heading {
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 25px;
+            color: var(--bs-body-color);
+        }
+
+        .ezy__signin6-bg-holder {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 500px; /* Chiều cao ban đầu là 150px, nên ta đặt là 3 * 150px = 450px */
+            width: 100%;
+            border-radius: 25px;
+        }
+
+        .ezy__signin6-form-card {
+            background-color: transparent;
+            border: none;
+            box-shadow: var(--ezy-form-card-shadow);
+        }
+
+            .ezy__signin6-form-card * {
+                color: var(--bs-body-color);
+            }
+
+        .ezy__signin6 .form-control {
+            min-height: 48px;
+            line-height: 40px;
+            border-color: transparent;
+            background: rgba(163, 190, 241, 0.14);
+            border-radius: 10px;
+            color: var(--bs-body-color);
+        }
+
+            .ezy__signin6 .form-control:focus {
+                border-color: var(--ezy-theme-color);
+                box-shadow: none;
+            }
+
+        .ezy__signin6-btn-submit {
+            padding: 12px 30px;
+            background-color: #333b7b;
+            color: #ffffff;
+        }
+
+            .ezy__signin6-btn-submit:hover {
+                color: #ffffff;
+            }
+
+        .ezy__signin6-btn {
+            padding: 12px 30px;
+        }
+
+            .ezy__signin6-btn,
+            .ezy__signin6-btn * {
+                color: #ffffff;
+            }
+
+                .ezy__signin6-btn:hover {
+                    color: #ffffff;
+                }
+
+        .ezy__signin6-or-separator {
+            position: relative;
+        }
+
+            .ezy__signin6-or-separator hr {
+                border-color: var(--bs-body-color);
+                opacity: 0.15;
+            }
+
+            .ezy__signin6-or-separator span {
+                background-color: var(--ezy-form-card-bg);
+                color: var(--bs-body-color);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate3d(-50%, -50%, 0);
+                opacity: 0.8;
+            }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Add some margin to separate from the form */
+        }
+
+        .google-login-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Add some margin to separate from the form */
+        }
+
+    </style>
+</head>
+<body>
+    <section class="ezy__signin6 light d-flex">
+        <div class="container">
+            <div class="row justify-content-between h-100">
+                <div class="col-lg-6">
+                    <div class="ezy__signin6-bg-holder d-none d-lg-block h-100"
+                         style="background-image: url(https://media.istockphoto.com/id/1062917958/vi/vec-to/hai-v%C3%A9-xem-phim-v%C3%A9-xem-phim-vector-v%C3%A9-xem-phim-ho%E1%BA%A1t-h%C3%ACnh.jpg?s=612x612&w=is&k=20&c=7ta0Tf9FPPcxQC1HfXEAjo0EeEnHYWsyZwM9pUPouxI=)"></div>
+                </div>
+                <div class="col-lg-5 py-5 d-flex align-items-center">
+                    <div class="row align-items-center w-100">
+                        <div class="col-12">
+                            <div class="card ezy__signin6-form-card">
+                                <div class="card-body p-0">
+                                    <h2 class="ezy__signin6-heading mb-3">Đăng nhập</h2>
+                                    <form id="account" method="post">
+                                        <label asp-for="Input.Email">Email</label>
+                                        <div class="form-group mb-4 mt-2">
+                                            <input asp-for="Input.Email" class="form-control" autocomplete="username"
+                                                   aria-required="true" placeholder="name@example.com" />
+                                            <i class="zmdi zmdi-email"></i>
+                                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                        </div>
+                                        <label asp-for="Input.Password">Mật khẩu</label>
+                                        <div class="form-group mb-2 mt-2">
+                                            <input asp-for="Input.Password" class="form-control"
+                                                   autocomplete="current-password" aria-required="true"
+                                                   placeholder="password" />
+                                            <i class="zmdi zmdi-lock"></i>
+                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="remember-me"
+                                                       checked />
+                                                <label class="form-check-label" for="remember-me"> Remember me </label>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button type="submit" class="btn ezy__signin6-btn-submit w-100">
+                                                Đăng nhập
+                                                <i class="zmdi zmdi-arrow-right"></i>
+                                            </button>
+                                        </div>
+
+                                        <div class="position-relative ezy__signin6-or-separator">
+                                            <hr class="my-4 my-md-5" />
+                                            <span class="px-2">Or</span>
+                                        </div>
+                                    </form>
+
+                                    @if ((Model.ExternalLogins?.Count ?? 0) != 0)
+                                    {
+                                        <section class="p-4 border rounded">
+                                            <form id="external-account" asp-page="./ExternalLogin"
+                                                  asp-route-returnUrl="@Model.ReturnUrl" method="post"
+                                                  class="form-horizontal">
+                                                <div class="google-login-container">
+                                                    <p>
+                                                        @foreach (var provider in Model.ExternalLogins)
+                                                        {
+                                                            <button type="submit"
+                                                                    class="btn btn-danger ezy__signin6-btn w-100 d-flex align-items-center"
+                                                                    name="provider" value="@provider.Name"
+                                                                    title="Log in using your @provider.DisplayName account">
+                                                                <span class="fab fa-google mr-2 text-white"></span>
+                                                                <span class="text-center">Continue with Google</span>
+                                                            </button>
+                                                        }
+                                                    </p>
+                                                </div>
+                                            </form>
+                                            <div class="text-center mt-4 mt-md-5">
+                                                <p class="mb-0 opacity-50 lh-1">Bạn chưa có tài khoản?</p>
+                                                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="btn btn-link py-0 text-dark text-decoration-none">Đăng ký tài khoản mới</a>
+                                            </div>
+                                        </section>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @section Scripts {
+            <partial name="_ValidationScriptsPartial" />
+        }
+    </section>
+</body>
+</html>

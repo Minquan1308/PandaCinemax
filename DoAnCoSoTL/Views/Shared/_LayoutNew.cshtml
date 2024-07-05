@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Electro - HTML Ecommerce Template</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="~/User/css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="~/User/css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="~/User/css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="~/User/css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="~/User/css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="~/User/css/style.css" />
+
+
+	<link type="text/css" rel="stylesheet" href="~/User/css/custom-style.css" />
+
+	<!-- Include Bootstrap CSS -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+	@*
+	@RenderSection("scripts", required: false) *@
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<style>
+	.input-group {
+		display: flex;
+		align-items: center;
+	}
+
+	.input-select, .input, .search-btn {
+		margin: 0;
+	}
+
+	.input-select {
+		flex: 0 0 auto;
+		margin-right: 10px; /* Khoảng cách giữa dropdown và input */
+	}
+
+	.input {
+		flex: 1 1 auto;
+	}
+
+	.search-btn {
+		flex: 0 0 auto;
+	}
+
+</style>
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- TOP HEADER -->
+		<div id="top-header">
+			<div class="container">
+				<ul class="header-links pull-left">
+					<li><a href="#"><i class="fa fa-phone"></i> 0915749446</a></li>
+					<li><a href="#"><i class="fa fa-envelope-o"></i> quannguyen130895@gmail.com</a></li>
+					<li><a href="#"><i class="fa fa-map-marker"></i> 39/16 102 street</a></li>
+				</ul>
+				<ul class="header-links pull-right">
+					<partial name="_LoginPartial" />
+				</ul>
+			</div>
+		</div>
+		<!-- /TOP HEADER -->
+		<!-- MAIN HEADER -->
+		@await Component.InvokeAsync("Search")
+
+		<!-- /MAIN HEADER -->
+	</header>
+	<!-- /HEADER -->
+	<!-- NAVIGATION -->
+	<nav id="navigation">
+		<!-- container -->
+		<div class="container">
+			<!-- responsive-nav -->
+			<div id="responsive-nav">
+				<!-- NAV -->
+				<ul class="main-nav nav navbar-nav">
+					@* <li><a asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a></li> *@
+					<li><a href="~/Movie/Index">Trang chủ</a></li>
+					<li><a href="~/Screening/Search">Lịch chiếu</a></li>
+				</ul>
+				<!-- /NAV -->
+			</div>
+			<!-- /responsive-nav -->
+		</div>
+		<!-- /container -->
+	</nav>
+	<!-- /NAVIGATION -->
+	@RenderBody()
+	<footer id="footer">
+		<!-- top footer -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">About Host</h3>
+							<p>Nguyễn Minh Quân</p>
+							<ul class="footer-links">
+								<li><a href="#"><i class="fa fa-map-marker"></i>39/16 102 street</a></li>
+								<li><a href="#"><i class="fa fa-phone"></i>0915749446</a></li>
+								<li><a href="#"><i class="fa fa-envelope-o"></i>quannguyen130895@email.com</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Members</h3>
+							<p>Nhóm Panda gồm 3 thành viên.</p>
+							<ul class="footer-links">
+								<li><a href="https://www.facebook.com/profile.php?id=100066680653827">1.Đinh Thị Thu Phương</a></li>
+								<li><a href="https://www.facebook.com/ngminquan1308">2.Nguyễn Minh Quân</a></li>
+								<li><a href="https://www.facebook.com/binhminh.ta.127">3.Tạ Bình Minh</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="clearfix visible-xs"></div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Information</h3>
+							<ul class="footer-links">
+								<li><a href="#">Tên Nhóm : Panda</a></li>
+								<li><a href="#">Lớp : 21DTHE5</a></li>
+								<li><a href="#">Khoa : Công Nghệ Thông Tin</a></li>
+								<li><a href="#">Chuyên Ngành : Công Nghệ Phần Mềm</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Service</h3>
+							<ul class="footer-links">
+								<li><a href="#">My Account</a></li>
+								<li><a href="#">View Cart</a></li>
+								<li><a href="#">Wishlist</a></li>
+								<li><a href="#">Track My Order</a></li>
+								<li><a href="#">Help</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /top footer -->
+		<!-- bottom footer -->
+		<div id="bottom-footer" class="section">
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<ul class="footer-payments">
+							<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+							<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+							<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+							<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+							<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+							<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+						</ul>
+						<span class="copyright">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</span>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bottom footer -->
+	</footer>
+	<!-- /FOOTER -->
+	<!-- jQuery Plugins -->
+	<script src="~/User/js/jquery.min.js"></script>
+	<script src="~/User/js/bootstrap.min.js"></script>
+	<script src="~/User/js/slick.min.js"></script>
+	<script src="~/User/js/nouislider.min.js"></script>
+	<script src="~/User/js/jquery.zoom.min.js"></script>
+	<script src="~/User/js/main.js"></script>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

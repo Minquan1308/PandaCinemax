@@ -1,0 +1,95 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Category>
+<style>
+    .rounded-image {
+        border-radius: 30%; /* làm tròn hình ảnh */
+        overflow: hidden; /* ẩn phần dư thừa nếu có */
+    }
+
+    .header-search .search-form {
+        width: 100%; /* Điều chỉnh độ dài của thanh tìm kiếm */
+    }
+
+    .input-group .input {
+        width: 75%; /* Điều chỉnh độ dài của ô input */
+    }
+
+    .input-group .input-group-append {
+        width: 25%; /* Điều chỉnh độ dài của nút tìm kiếm */
+    }
+
+    .header-ctn .dropdown a {
+        font-size: 18px; /* Tăng kích thước chữ */
+    }
+
+        .header-ctn .dropdown a i {
+            font-size: 24px; /* Tăng kích thước icon */
+        }
+</style>
+
+<!-- MAIN HEADER -->
+<div id="header">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- LOGO -->
+            <div class="col-md-3">
+                <div class="header-logo">
+                    <a href="#" class="logo">
+                        <img src="~/User/img/Panda.png" height="70px" width="140px" alt="" class="rounded-image">
+                    </a>
+                </div>
+            </div>
+            <!-- /LOGO -->
+            <!-- SEARCH BAR -->
+            <div class="col-md-6">
+                <div class="header-search">
+                    <form asp-controller="Movie" asp-action="SearchResult" method="get" class="search-form">
+                        <div class="input-group">
+                            <select class="input-select" name="catid">
+                                <option value="0">Tất cả thể loại</option>
+                                @if (Model != null)
+                                {
+                                    foreach (var category in Model)
+                                    {
+                                        <option value="@category.Id">@category.Name</option>
+                                    }
+                                }
+                            </select>
+                            <input class="input" name="keyword" placeholder="Tìm kiếm tại đây">
+                            <div class="input-group-append">
+                                <button type="submit" class="search-btn">Tìm kiếm</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /SEARCH BAR -->
+            <!-- ACCOUNT -->
+            <div class="col-md-3 clearfix">
+                <div class="header-ctn">
+                    <!-- Cart -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" asp-area="" asp-controller="OrderList" asp-action="Index">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>Lịch sử đặt vé</span>
+                        </a>
+                    </div>
+                    <!-- /Cart -->
+                    <!-- Menu Toggle -->
+                    <div class="menu-toggle">
+                        <a href="#">
+                            <i class="fa fa-bars"></i>
+                            <span>Menu</span>
+                        </a>
+                    </div>
+                    <!-- /Menu Toggle -->
+                </div>
+            </div>
+            <!-- /ACCOUNT -->
+        </div>
+        <!-- row -->
+    </div>
+    <!-- container -->
+</div>
+<!-- /MAIN HEADER -->

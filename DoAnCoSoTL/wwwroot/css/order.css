@@ -1,0 +1,112 @@
+﻿/* styles.css */
+
+/* CSS cho danh sách vé */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.ticket-container {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+    .header img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+.details {
+    margin-bottom: 16px;
+}
+
+    .details p {
+        margin: 4px 0;
+    }
+
+.seat-list {
+    margin-bottom: 16px;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d4edda;
+    color: #155724;
+    padding: 20px 40px;
+    border: 1px solid #c3e6cb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+    .notification .icon {
+        display: inline-block;
+        margin-right: 15px;
+        color: #28a745;
+        font-size: 2em;
+        animation: iconBounce 1s infinite;
+    }
+
+/* CSS cho hiệu ứng phóng to và thu nhỏ */
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+@keyframes iconBounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.notification.show {
+    display: flex;
+    animation: zoomIn 0.8s forwards;
+}
+
+.notification.hide {
+    animation: zoomOut 0.8s forwards;
+    display: flex; /* Đảm bảo nó hiển thị khi bắt đầu animation */
+}

@@ -1,0 +1,1059 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\views\\admin\\dailyrevenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\views\\admin\\dailyrevenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\detailwithmovieinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\detailwithmovieinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\seatbookingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\seatbookingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\orderlist\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\orderlist\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\controllers\\orderlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\controllers\\orderlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\seatorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\seatorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\controllers\\seatbookingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\controllers\\seatbookingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\services\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\extensions\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\extensions\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\viewmodels\\orderhistorywithviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\viewmodels\\orderhistorywithviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\seatbookingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\seatbookingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\seatcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\seatcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\seatorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\seatorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\seat\\choose.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\seat\\choose.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\screening\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\screening\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\controllers\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\controllers\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\screening\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\screening\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\vnpaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\movie\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\movie\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\views\\movie\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\shared\\_layoutnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\shared\\_layoutnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\views\\shared\\components\\search\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\views\\shared\\components\\search\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\employee\\controller\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\employee\\controller\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\seatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\seatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\producercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\producercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\viewmodels\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\viewmodels\\movieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\cinemarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\cinemarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\screeningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\screeningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\producerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\producerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\iseatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\iseatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\repositories\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\repositories\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 42,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DailyRevenue.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\DailyRevenue.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\DailyRevenue.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\DailyRevenue.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\DailyRevenue.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwCgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T16:16:30.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T16:13:55.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T16:13:49.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetailWithMovieInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\DetailWithMovieInfoModel.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\DetailWithMovieInfoModel.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\DetailWithMovieInfoModel.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\DetailWithMovieInfoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:42:22.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAL0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:37:24.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAiwN4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:58:48.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:58:23.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:53:08.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\OrderList\\Detail.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\OrderList\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\OrderList\\Detail.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\OrderList\\Detail.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwFEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T09:52:47.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\OrderList\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\OrderList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\OrderList\\Index.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\OrderList\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T09:52:26.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\SeatBookingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\SeatBookingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\SeatBookingCart\\Index.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\SeatBookingCart\\Index.cshtml",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAiwIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T16:48:03.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SeatOrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatOrderDetail.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\SeatOrderDetail.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatOrderDetail.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\SeatOrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T13:13:09.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Choose.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Seat\\Choose.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Seat\\Choose.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Seat\\Choose.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Seat\\Choose.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T05:07:00.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SeatCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatCartItem.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\SeatCartItem.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatCartItem.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\SeatCartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T04:10:12.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SeatBookingCart.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatBookingCart.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\SeatBookingCart.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatBookingCart.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\SeatBookingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T04:10:06.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Screening\\Details.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Screening\\Details.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Screening\\Details.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Screening\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T18:35:17.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Screening\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Screening\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Screening\\Index.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Screening\\Index.cshtml",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAYwLkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T18:19:57.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\Room.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T17:56:54.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SeatOrder.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatOrder.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\SeatOrder.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatOrder.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\SeatOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T10:28:06.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAYwPwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T11:27:05.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJ4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T11:02:34.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T14:21:18.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAACEBAAAAAAAAAAAUwFIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T13:41:20.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Shared\\Components\\Search\\Default.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Shared\\Components\\Search\\Default.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Shared\\Components\\Search\\Default.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Shared\\Components\\Search\\Default.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAUwF4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T03:43:49.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T03:42:17.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_LayoutNew.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Shared\\_LayoutNew.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Shared\\_LayoutNew.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Shared\\_LayoutNew.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Shared\\_LayoutNew.cshtml",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAYwNoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T03:31:28.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAUwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T03:21:19.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Details.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Details.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Details.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Views\\Movie\\Details.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAUwH8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T03:09:29.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Movie\\Display.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Movie\\Display.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Movie\\Display.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Movie\\Display.cshtml",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAYwAgBAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T03:09:13.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Screening.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\Screening.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\Screening.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\Screening.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\Screening.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T17:01:59.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "DoAnCoSoTL\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AQIAANYAAAAAAAAAAAAAAOQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T03:49:43.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VnPaymentResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\VnPaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\VnPaymentResponseModel.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\VnPaymentResponseModel.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\VnPaymentResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:39:47.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Extensions\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Extensions\\VnPayLibrary.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Extensions\\VnPayLibrary.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Extensions\\VnPayLibrary.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAAJoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:39:26.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Services\\VnPayService.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Services\\VnPayService.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Services\\VnPayService.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Services\\VnPayService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAE8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:39:08.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Services\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Services\\IVnPayService.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Services\\IVnPayService.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Services\\IVnPayService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T01:38:59.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SeatBookingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\SeatBookingCartController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Controllers\\SeatBookingCartController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\SeatBookingCartController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Controllers\\SeatBookingCartController.cs",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAgwBsBAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:37:49.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SeatController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\SeatController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Controllers\\SeatController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\SeatController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Controllers\\SeatController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAgwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:33:04.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ScreeningController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\ScreeningController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Controllers\\ScreeningController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\ScreeningController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Controllers\\ScreeningController.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAYwLcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:17:49.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderHistoryWithViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\ViewModels\\OrderHistoryWithViewModel.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\ViewModels\\OrderHistoryWithViewModel.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\ViewModels\\OrderHistoryWithViewModel.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\ViewModels\\OrderHistoryWithViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T16:51:50.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderListController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\OrderListController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Controllers\\OrderListController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\OrderListController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Controllers\\OrderListController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAiwF0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T16:41:23.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ScreeningController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Employee\\Controller\\ScreeningController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Employee\\Controller\\ScreeningController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Employee\\Controller\\ScreeningController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Employee\\Controller\\ScreeningController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwPUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T16:19:46.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScreeningController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\ScreeningController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\ScreeningController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\ScreeningController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\ScreeningController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAQwKQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T16:02:57.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProducerController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\ProducerController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\ProducerController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\ProducerController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\ProducerController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAgwIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T15:41:26.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\ActorController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAgwLMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T15:41:19.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwF8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T15:41:08.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAgwKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T15:30:22.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAAAHIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T11:18:24.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAAMoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T11:16:50.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MovieViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\ViewModels\\MovieViewModel.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\ViewModels\\MovieViewModel.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\ViewModels\\MovieViewModel.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\ViewModels\\MovieViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T10:45:03.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "EFOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\EFOrderRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\EFOrderRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\EFOrderRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\EFOrderRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T10:27:37.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CinemaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\CinemaRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\CinemaRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\CinemaRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\CinemaRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwDYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T10:26:57.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProducerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ProducerRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\ProducerRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ProducerRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\ProducerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T10:26:22.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T10:25:38.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\MovieContext.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\MovieContext.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\MovieContext.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Models\\MovieContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:23:42.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAACcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:20:58.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T13:41:41.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SeatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\SeatRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\SeatRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\SeatRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\SeatRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T13:40:43.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ISeatRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ISeatRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\ISeatRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ISeatRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\ISeatRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T13:40:31.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ScreeningRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ScreeningRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\ScreeningRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ScreeningRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\ScreeningRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T13:39:17.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IActorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\IActorRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\IActorRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\IActorRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\IActorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:17:36.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ActorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ActorRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\ActorRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\ActorRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\ActorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:17:29.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\IMovieRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\IMovieRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:10:50.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\Repositories\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Repositories\\MovieRepository.cs",
+              "RelativeToolTip": "DoAnCoSoTL\\Repositories\\MovieRepository.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAkwNcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:10:22.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\appsettings.json",
+              "RelativeDocumentMoniker": "DoAnCoSoTL\\appsettings.json",
+              "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\appsettings.json",
+              "RelativeToolTip": "DoAnCoSoTL\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-17T11:34:01.279Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

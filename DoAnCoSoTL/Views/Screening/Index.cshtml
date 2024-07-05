@@ -1,0 +1,216 @@
+﻿@model IEnumerable<DoAnCoSoTL.Models.Screening>
+@{
+    // Lấy ngày hiện tại
+    DateTime currentDate = DateTime.Today.Date;
+    // Tạo một danh sách các ngày từ hôm nay đến 1 tuần sau
+    List<DateTime> dateList = Enumerable.Range(0, 7)
+                                         .Select(offset => currentDate.AddDays(offset))
+                                         .ToList();
+    // Lấy ngày đã chọn từ ViewBag và chuyển đổi thành DateTime
+    DateTime selectedDate;
+    DateTime.TryParse(ViewBag.SelectedDate?.ToString(), out selectedDate);
+}
+<style>
+    .screening-view-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Style cho tiêu đề phim */
+    .movie-title {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    /* Style cho các button chọn ngày */
+    .date-picker {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .date-picker ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .date-picker li {
+            display: inline-block;
+        }
+
+    .date-item a {
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        color: #000;
+        display: block;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+
+    .date-item.selected a {
+        background-color: #d9534f;
+        color: #fff;
+    }
+
+    .date-item a:hover {
+        background-color: #ddd;
+    }
+
+    /* Style cho khung chứa thông tin các buổi chiếu */
+    .screenings-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Style cho từng nhóm rạp chiếu phim */
+    .cinema-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style cho tên rạp chiếu phim */
+    .cinema-name {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #333;
+    }
+
+    /* Style cho địa điểm rạp chiếu phim */
+    .cinema-location {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    /* Style cho từng nhóm ngày chiếu */
+    .date-group {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Style cho từng khung giờ chiếu */
+    .time-slot {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 12px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        flex: 1 1 calc(25% - 10px);
+        text-align: center;
+    }
+
+        .time-slot:hover {
+            background-color: #0056b3;
+        }
+
+    /* Style cho thông báo không có buổi chiếu */
+    .no-screenings {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 18px;
+        color: #333;
+    }
+</style>
+@{
+    string movieName = ViewBag.MovieName ?? ""; // Khởi tạo biến để lưu trữ tên phim
+}
+
+<div class="screening-view-container">
+    <h1 class="movie-title">@ViewBag.MovieName</h1> <!-- Hiển thị tên phim -->
+
+    <div class="date-picker">
+        <ul>
+            @foreach (var date in dateList)
+            {
+                <li class="date-item @(date.Date == selectedDate.Date ? "selected" : "")">
+                    <a href="javascript:void(0);" onclick="filterByDate('@date.ToString("yyyy-MM-dd")')">
+                        @date.ToString("dd") <br />
+                        <span>@date.ToString("ddd")</span>
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="screenings-container">
+            @foreach (var cinemaGroup in Model.GroupBy(s => s.CinemaId))
+            {
+                <div class="cinema-group">
+                    <h3 class="cinema-name">@cinemaGroup.First().Cinema.Name</h3>
+                    <h6 class="cinema-location">@cinemaGroup.First().Cinema.Location</h6>
+                    @foreach (var dateGroup in cinemaGroup.GroupBy(s => s.Date))
+                    {
+                        <div class="date-group">
+                            @foreach (var screening in dateGroup)
+                            {
+                                var timeSlot = $"{screening.Time} - {screening.EndTime}";
+                                <form asp-controller="Seat" asp-action="Choose" method="get" class="screening-form">
+                                    <input type="hidden" name="roomId" value="@screening.RoomId" />
+                                    <input type="hidden" name="screeningId" value="@screening.Id" />
+                                    <input type="hidden" name="movieId" value="@ViewBag.MovieId" />
+                                    <button type="submit" class="btn btn-primary time-slot" name="timeSlot" value="@timeSlot">@timeSlot</button>
+                                </form>
+                            }
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="no-screenings">
+            <img src="/images/error/notfound.png" style="height:30vh; text-align:center; margin-left:10%;" />
+            <p>Lịch chiếu hiện đang trống.</p>
+        </div>
+    }
+</div>
+
+@functions {
+    public List<string> GetTimeSlots(IEnumerable<DoAnCoSoTL.Models.Screening> screenings)
+    {
+        // Tạo danh sách các khung giờ từ danh sách lịch chiếu screenings
+        List<string> timeSlots = new List<string>();
+
+        // Gộp thời gian bắt đầu và kết thúc của các lịch chiếu cùng ngày vào một hàng
+        var timeSlotsGrouped = screenings.GroupBy(s => $"{s.Time} - {s.EndTime}");
+        foreach (var timeSlotGroup in timeSlotsGrouped)
+        {
+            timeSlots.Add(timeSlotGroup.Key);
+        }
+
+        return timeSlots;
+    }
+}
+
+<script>
+    // Hàm sẽ được gọi khi người dùng thay đổi giá trị trong menu dropdown
+    function filterByDate(selectedDate) {
+        window.location.href = "/Screening/Index?movieId=@ViewBag.MovieId&date=" + selectedDate;
+    }
+
+    // Cập nhật giá trị của thanh ngày sau khi trang web đã được làm mới
+    window.onload = function () {
+        var selectedDate = "@ViewBag.SelectedDate"; // Sử dụng ViewBag để truyền giá trị ngày đã chọn từ controller
+        if (selectedDate) {
+            document.querySelector(`.date-item a[href="javascript:void(0);"][onclick="filterByDate('${selectedDate}')"]`).parentElement.classList.add('selected');
+        }
+    };
+</script>

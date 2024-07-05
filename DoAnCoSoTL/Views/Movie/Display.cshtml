@@ -1,0 +1,292 @@
+﻿@model DoAnCoSoTL.Models.Movie
+
+@{
+    int date = ViewBag.Date ?? 0;
+}
+
+@{
+    // Phương thức để xác định lớp CSS dựa trên giá trị age
+    Func<string, string> getAgeClass = (age) =>
+    {
+        int ageValue;
+        if (int.TryParse(age, out ageValue))
+        {
+
+            if (ageValue >= 13 && ageValue <= 16)
+            {
+                return "age-orange"; // Áp dụng màu cam cho khoảng từ 13 đến 16 tuổi
+            }
+            else if (ageValue == 18)
+            {
+                return "age-red"; // Áp dụng màu đỏ cho độ tuổi 18
+            }
+        }
+        if (age == "K")
+        {
+            return "age-blue";
+        }
+        return "age-green"; // Áp dụng màu xanh lá cho các đối tượng khác
+    };
+
+    // Phương thức để xác định thông điệp dựa trên giá trị age
+    Func<string, string> getAgeMessage = (age) =>
+    {
+        int ageValue;
+        if (int.TryParse(age, out ageValue))
+        {
+            return $"Phim được phổ biến đến người xem từ {ageValue} tuổi trở lên.";
+        }
+        else if (age.ToUpper() == "P")
+        {
+            return "Phim được phổ biến đến người xem ở mọi độ tuổi.";
+        }
+        else if(age.ToUpper()=="K")
+        {
+            return "Phim được phổ biển đến người xem dưới 13 tuổi .";
+        }
+        
+        return "";
+    };
+}
+<!-- Thêm CSS cho nút "Xem Trailer" và hình ảnh sản phẩm -->
+<style>
+    #watch-trailer-btn {
+        background-color: #4CAF50; /* Màu nền */
+        color: white; /* Màu chữ */
+    }
+
+    .qty {
+        background-color: #fff;
+        padding: 2px 5px; /* Adjust padding for desired rectangle size */
+        border-radius: 5px; /* Optional: rounded corners */
+        font-weight: bold;
+        border: 1px solid #333; /* Border around the rectangle */
+        display: inline-block; /* Để hiển thị cùng hàng với tên phim */
+        margin-bottom: 10px; /* Khoảng cách dưới */
+    }
+
+    .age-message {
+        margin-left: 10px; /* Khoảng cách bên trái của thông điệp */
+        display: inline-block; /* Hiển thị cùng hàng với qty */
+        font-style: italic; /* Chữ nghiêng */
+        color: #555; /* Màu chữ xám */
+    }
+
+    .product-image {
+        float: left; /* Đưa hình ảnh sang bên trái */
+        margin-right: 20px; /* Khoảng cách giữa hình ảnh và nội dung */
+    }
+
+        .product-image img {
+            max-width: auto;
+            height: 550px;
+        }
+
+    .product-details {
+        overflow: hidden; /* Ngăn chặn nội dung bên dưới hình ảnh bị tràn ra */
+    }
+
+    #video-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+    }
+
+    #video-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .description-label {
+        font-size: 1em; /* Điều chỉnh kích cỡ chữ theo thead */
+        font-weight: bold; /* Chữ đậm */
+    }
+
+    .cast-crew {
+        margin-top: 20px;
+        margin-left: 1px; /* Thêm khoảng cách bên trái */
+    }
+
+        .cast-crew h3 {
+            margin-bottom: 20px;
+        }
+
+    .cast-member, .producer {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+        margin-bottom: 20px; /* Thêm khoảng cách bên dưới */
+    }
+
+        .cast-member img, .producer img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+    .age-orange {
+        background-color: orange; /* Màu cam */
+    }
+
+    .age-red {
+        background-color: red; /* Màu đỏ */
+    }
+
+    .age-blue {
+        background-color: dodgerblue; /* Màu đỏ */
+    }
+
+    .age-green {
+        background-color: green; /* Màu xanh lá */
+    }
+</style>
+
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- Product main img -->
+            <div class="col-md-6 product-image">
+                <div id="product-main-img">
+                    <div class="product-preview">
+                        @if (!string.IsNullOrEmpty(Model.Image))
+                        {
+                            <img src="@Model.Image" alt="Product Image" />
+                        }
+                    </div>
+                </div>
+            </div>
+            <!-- /Product main img -->
+            <!-- Product details -->
+            <div class="col-md-5">
+                <div class="product-details">
+                    <div>
+                        <div class="qty @getAgeClass(Model.Age)">@Model.Age</div>
+                        <div class="age-message">@getAgeMessage(Model.Age)</div>
+                    </div>
+                    <h2 class="product-name">@Model.Name</h2>
+                    <div>
+                        <!-- Thêm đánh giá sao ở đây nếu cần -->
+                    </div>
+                    <div>
+                        
+                        <h3 class="product-price">@Model.Price VND<del class="product-old-price">Giá vé :@(@Model.Price + 10000) VND</del></h3>
+                        @* <span class="product-available">Còn vé</span> *@
+                    </div>
+                    
+                    <p><span class="description-label">Mô tả:</span> @Model.Description</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="padding-right: 20px;">Ngày khởi chiếu</th>
+                                <th style="padding-left: 20px;">Thể loại</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Model.StartDate.ToShortDateString()</td>
+                                <td style="padding-left: 20px;">@Model.Category.Name</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row cast-crew">
+                        <h4>Đạo diễn & Diễn viên</h4>
+
+                        <!-- Hiển thị nhà sản xuất -->
+                        @{
+                            var producer = ViewBag.Producer as DoAnCoSoTL.Models.Producer;
+                            if (producer != null)
+                            {
+                                <div class="producer">
+                                    <img src="@producer.Image" alt="@producer.Name">
+                                    <p><strong>@producer.Name</strong></p>
+
+                                </div>
+                            }
+                        }
+
+                        <!-- Hiển thị diễn viên -->
+                        @foreach (var actor in ViewBag.Actor)
+                        {
+                            <div class="cast-member">
+                                <img src="@actor.Actor.Image" alt="@actor.Actor.Name">
+                                <p><strong>@actor.Actor.Name</strong></p>
+
+                            </div>
+                        }
+                    </div>
+                    <div class="add-to-cart">
+                        <button id="watch-trailer-btn" class="add-to-cart-btn"><i class="fa fa-play-circle"></i> Xem Trailer</button>
+                        @if (@date <=3  ||@Model.StartDate.Date < DateTime.Now.Date)
+                        {
+                            <button id="buy-ticket-btn" class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Mua vé </button>
+                        }
+                    </div>
+                    <div id="video-overlay">
+                        <div id="video-container"></div>
+                    </div>
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script>
+                        $(document).ready(function () {
+                            $('#buy-ticket-btn').on('click', function () {
+                                var movieId = '@Model.Id';
+                                window.location.href = '@Url.Action("Index", "Screening")' + '?movieId=' + movieId;
+                            });
+
+                            $('#watch-trailer-btn').on('click', function () {
+                                $('#video-overlay').fadeIn();
+                                var videoUrl = '@Model.Trailer';
+                                var videoId = videoUrl.substring(videoUrl.indexOf('=') + 1);
+                                var iframeCode = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allowfullscreen></iframe>';
+                                $('#video-container').html(iframeCode);
+                                $('#video-container').css({
+                                    'width': '80%',
+                                    'height': '80%'
+                                });
+                            });
+
+                            $('#video-overlay').on('click', function () {
+                                $('#video-overlay').fadeOut();
+                                $('#video-container').empty();
+                            });
+                        });
+                    </script>
+
+                    <ul class="product-links">
+                        <li>Chia sẻ:</li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                    <a asp-action="Index">Trở về danh sách phim</a>
+                </div>
+            </div>
+            <!-- /Product details -->
+        </div>
+        <!-- /row -->
+        
+        <!-- /Phần Diễn viên & Nhà sản xuất -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->
+
+<script src="~/User/js/bootstrap.min.js"></script>
+<script src="~/User/js/slick.min.js"></script>
+<script src="~/User/js/nouislider.min.js"></script>
+<script src="~/User/js/jquery.zoom.min.js"></script>
+<script src="~/User/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

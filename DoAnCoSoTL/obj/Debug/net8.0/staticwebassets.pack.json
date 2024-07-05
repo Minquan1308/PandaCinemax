@@ -1,0 +1,2725 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DoAnCoSoTL.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DoAnCoSoTL.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\css\\custom-style.css",
+      "PackagePath": "staticwebassets\\User\\css\\custom-style.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\User\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\User\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\css\\slick.css",
+      "PackagePath": "staticwebassets\\User\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\css\\style.css",
+      "PackagePath": "staticwebassets\\User\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\User\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\User\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\User\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\User\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\User\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\User\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\User\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\User\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\User\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\User\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\Panda.png",
+      "PackagePath": "staticwebassets\\User\\img\\Panda.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\Panda2.png",
+      "PackagePath": "staticwebassets\\User\\img\\Panda2.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\hotdeal.png",
+      "PackagePath": "staticwebassets\\User\\img\\hotdeal.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\logo.png",
+      "PackagePath": "staticwebassets\\User\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product01.png",
+      "PackagePath": "staticwebassets\\User\\img\\product01.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product02.png",
+      "PackagePath": "staticwebassets\\User\\img\\product02.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product03.png",
+      "PackagePath": "staticwebassets\\User\\img\\product03.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product04.png",
+      "PackagePath": "staticwebassets\\User\\img\\product04.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product05.png",
+      "PackagePath": "staticwebassets\\User\\img\\product05.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product06.png",
+      "PackagePath": "staticwebassets\\User\\img\\product06.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product07.png",
+      "PackagePath": "staticwebassets\\User\\img\\product07.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product08.png",
+      "PackagePath": "staticwebassets\\User\\img\\product08.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\product09.png",
+      "PackagePath": "staticwebassets\\User\\img\\product09.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\shop01.png",
+      "PackagePath": "staticwebassets\\User\\img\\shop01.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\shop02.png",
+      "PackagePath": "staticwebassets\\User\\img\\shop02.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\img\\shop03.png",
+      "PackagePath": "staticwebassets\\User\\img\\shop03.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\User\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\User\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\js\\jquery.zoom.min.js",
+      "PackagePath": "staticwebassets\\User\\js\\jquery.zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\js\\main.js",
+      "PackagePath": "staticwebassets\\User\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\User\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\User\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\screenshot\\Checkout.png",
+      "PackagePath": "staticwebassets\\User\\screenshot\\Checkout.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\screenshot\\Index.png",
+      "PackagePath": "staticwebassets\\User\\screenshot\\Index.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\screenshot\\Product.png",
+      "PackagePath": "staticwebassets\\User\\screenshot\\Product.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\screenshot\\Regular.png",
+      "PackagePath": "staticwebassets\\User\\screenshot\\Regular.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\User\\screenshot\\Store.png",
+      "PackagePath": "staticwebassets\\User\\screenshot\\Store.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\default-css.css",
+      "PackagePath": "staticwebassets\\assets\\css\\default-css.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\metisMenu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\metisMenu.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\css\\typography.css",
+      "PackagePath": "staticwebassets\\assets\\css\\typography.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\author\\author-img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\author\\author-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\author\\author-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\author\\author-img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\author-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\author\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\bg\\singin-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\singin-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\blog\\post-thumb1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post-thumb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\blog\\post-thumb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post-thumb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\card\\card-img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\card\\card-img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\icon1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\icon2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\icon3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\icon4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\trends-down-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\trends-down-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\trends-up-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\trends-up-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\triangle-down.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\triangle-down.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\icon\\market-value\\triangle-up.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\market-value\\triangle-up.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\media\\media1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\media\\media1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\media\\media2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\media\\media2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\team\\team-author1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\team\\team-author2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\team\\team-author3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\team\\team-author4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\images\\team\\team-author5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-author5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\bar-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bar-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\line-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\line-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\maps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\maps.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\metisMenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\pie-chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pie-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\OrderListIndex.css",
+      "PackagePath": "staticwebassets\\css\\OrderListIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\TicketSale.css",
+      "PackagePath": "staticwebassets\\css\\TicketSale.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick(1).html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick(1).html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick-2(1).html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick-2(1).html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick-2.html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick-2.html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick-3(1).html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick-3(1).html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick-3.html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick-3.html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick-4(1).html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick-4(1).html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick-4.html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick-4.html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slick.html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slick.html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slickd41d(1).html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slickd41d(1).html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\fonts\\slickd41d.html",
+      "PackagePath": "staticwebassets\\css\\fonts\\slickd41d.html"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\order.css",
+      "PackagePath": "staticwebassets\\css\\order.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\1C6639340-google-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\1C6639340-google-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\6b51ebf1-76c4-4ea2-9a53-75b954c89b87.jpg",
+      "PackagePath": "staticwebassets\\images\\6b51ebf1-76c4-4ea2-9a53-75b954c89b87.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\ASL.jpg",
+      "PackagePath": "staticwebassets\\images\\ASL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\AVATAR2.jpg",
+      "PackagePath": "staticwebassets\\images\\AVATAR2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Action.jpg",
+      "PackagePath": "staticwebassets\\images\\Action.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Adventure.jpg",
+      "PackagePath": "staticwebassets\\images\\Adventure.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Animation.jpg",
+      "PackagePath": "staticwebassets\\images\\Animation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Business_Proposal.jpg",
+      "PackagePath": "staticwebassets\\images\\Business_Proposal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Category-Khoa hoc vien tuong.jpg",
+      "PackagePath": "staticwebassets\\images\\Category-Khoa hoc vien tuong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Cinema\\Galaxy.jpg",
+      "PackagePath": "staticwebassets\\images\\Cinema\\Galaxy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Cinema\\vox.jpg",
+      "PackagePath": "staticwebassets\\images\\Cinema\\vox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Comedy.jpg",
+      "PackagePath": "staticwebassets\\images\\Comedy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Conan.jpeg",
+      "PackagePath": "staticwebassets\\images\\Conan.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Documentary.jpg",
+      "PackagePath": "staticwebassets\\images\\Documentary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\DoraemonBanGiaoHuongDiaCau.jpg",
+      "PackagePath": "staticwebassets\\images\\DoraemonBanGiaoHuongDiaCau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Drama-icon.svg.png",
+      "PackagePath": "staticwebassets\\images\\Drama-icon.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Drama.jpg",
+      "PackagePath": "staticwebassets\\images\\Drama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Dune 2.webp",
+      "PackagePath": "staticwebassets\\images\\Dune 2.webp"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Gia tai cua ngoai.jpg",
+      "PackagePath": "staticwebassets\\images\\Gia tai cua ngoai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\HiKing2.jpg",
+      "PackagePath": "staticwebassets\\images\\HiKing2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Horror.jpg",
+      "PackagePath": "staticwebassets\\images\\Horror.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\James Cameron - Avatar 2.jpg",
+      "PackagePath": "staticwebassets\\images\\James Cameron - Avatar 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Kẻ Trộm Mặt Trăng 4.jpg",
+      "PackagePath": "staticwebassets\\images\\Kẻ Trộm Mặt Trăng 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Mai.jpg",
+      "PackagePath": "staticwebassets\\images\\Mai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Mickey_17653 poster.jpg",
+      "PackagePath": "staticwebassets\\images\\Mickey_17653 poster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Minion.jpg",
+      "PackagePath": "staticwebassets\\images\\Minion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Naruto.jpg",
+      "PackagePath": "staticwebassets\\images\\Naruto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Nắm đấm trời ban poster.jpg",
+      "PackagePath": "staticwebassets\\images\\Nắm đấm trời ban poster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Phương Anh Đào.jpg",
+      "PackagePath": "staticwebassets\\images\\Phương Anh Đào.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Romance.jpg",
+      "PackagePath": "staticwebassets\\images\\Romance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Screenshot 2024-03-31 205056.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-03-31 205056.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Screenshot 2024-03-31 224427.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-03-31 224427.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Screenshot 2024-05-03 161923.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-05-03 161923.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Taylor Swift.jpg",
+      "PackagePath": "staticwebassets\\images\\Taylor Swift.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Thriller.jpg",
+      "PackagePath": "staticwebassets\\images\\Thriller.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Tran thanh.jpg",
+      "PackagePath": "staticwebassets\\images\\Tran thanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\TronDo.png",
+      "PackagePath": "staticwebassets\\images\\TronDo.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\TronXanh.jpg",
+      "PackagePath": "staticwebassets\\images\\TronXanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\TrueBeauty.jpg",
+      "PackagePath": "staticwebassets\\images\\TrueBeauty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Tết ở làng địa ngục.png",
+      "PackagePath": "staticwebassets\\images\\Tết ở làng địa ngục.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Vây hãm poster.jpeg",
+      "PackagePath": "staticwebassets\\images\\Vây hãm poster.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\Vương Quốc Khỉ poster.jpg",
+      "PackagePath": "staticwebassets\\images\\Vương Quốc Khỉ poster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\actor-1.jpeg",
+      "PackagePath": "staticwebassets\\images\\actor-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\actor-2.jpeg",
+      "PackagePath": "staticwebassets\\images\\actor-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\actor-3.jpeg",
+      "PackagePath": "staticwebassets\\images\\actor-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\actor-4.jpeg",
+      "PackagePath": "staticwebassets\\images\\actor-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\actor-5.jpeg",
+      "PackagePath": "staticwebassets\\images\\actor-5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\actor-6.jpg",
+      "PackagePath": "staticwebassets\\images\\actor-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\actor-7.jpg",
+      "PackagePath": "staticwebassets\\images\\actor-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\bay nuot mang.jpg",
+      "PackagePath": "staticwebassets\\images\\bay nuot mang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\bỗng dưng trúng số.jpg",
+      "PackagePath": "staticwebassets\\images\\bỗng dưng trúng số.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\doraemon.webp",
+      "PackagePath": "staticwebassets\\images\\doraemon.webp"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\error\\notfound.png",
+      "PackagePath": "staticwebassets\\images\\error\\notfound.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\exhuma-quat-mo-trung-ma-exhuma-2024-poster(1).jpg",
+      "PackagePath": "staticwebassets\\images\\exhuma-quat-mo-trung-ma-exhuma-2024-poster(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_loading(1).gif",
+      "PackagePath": "staticwebassets\\images\\fancybox_loading(1).gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_loading.gif",
+      "PackagePath": "staticwebassets\\images\\fancybox_loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_loading@2x(1).gif",
+      "PackagePath": "staticwebassets\\images\\fancybox_loading@2x(1).gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_loading@2x.gif",
+      "PackagePath": "staticwebassets\\images\\fancybox_loading@2x.gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_overlay(1).png",
+      "PackagePath": "staticwebassets\\images\\fancybox_overlay(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_overlay.png",
+      "PackagePath": "staticwebassets\\images\\fancybox_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_sprite(1).png",
+      "PackagePath": "staticwebassets\\images\\fancybox_sprite(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_sprite.png",
+      "PackagePath": "staticwebassets\\images\\fancybox_sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_sprite@2x(1).png",
+      "PackagePath": "staticwebassets\\images\\fancybox_sprite@2x(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\fancybox_sprite@2x.png",
+      "PackagePath": "staticwebassets\\images\\fancybox_sprite@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\ft-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\ft-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\inside-out-2.jpg",
+      "PackagePath": "staticwebassets\\images\\inside-out-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\lat-mat-7.jpg",
+      "PackagePath": "staticwebassets\\images\\lat-mat-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\logo1(1).png",
+      "PackagePath": "staticwebassets\\images\\logo1(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\logo2(1).png",
+      "PackagePath": "staticwebassets\\images\\logo2(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\lotte cinema di an.png",
+      "PackagePath": "staticwebassets\\images\\lotte cinema di an.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\maxresdefault (1).jpg",
+      "PackagePath": "staticwebassets\\images\\maxresdefault (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\maxresdefault.jpg",
+      "PackagePath": "staticwebassets\\images\\maxresdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\meomap10mang poster.jpg",
+      "PackagePath": "staticwebassets\\images\\meomap10mang poster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\momo-upload-api-210727143703-637629934234165196.jpg",
+      "PackagePath": "staticwebassets\\images\\momo-upload-api-210727143703-637629934234165196.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\movie-1.jpg",
+      "PackagePath": "staticwebassets\\images\\movie-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\movie-2.jpg",
+      "PackagePath": "staticwebassets\\images\\movie-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\movie-3.jpg",
+      "PackagePath": "staticwebassets\\images\\movie-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\movie-4.jpg",
+      "PackagePath": "staticwebassets\\images\\movie-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\mufasa poster.jpg",
+      "PackagePath": "staticwebassets\\images\\mufasa poster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\ngay xua co 1 chuyen tinh poster.jpg",
+      "PackagePath": "staticwebassets\\images\\ngay xua co 1 chuyen tinh poster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\close(1).png",
+      "PackagePath": "staticwebassets\\images\\nivo\\close(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\close.png",
+      "PackagePath": "staticwebassets\\images\\nivo\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\close@2x(1).png",
+      "PackagePath": "staticwebassets\\images\\nivo\\close@2x(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\close@2x.png",
+      "PackagePath": "staticwebassets\\images\\nivo\\close@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\loading(1).gif",
+      "PackagePath": "staticwebassets\\images\\nivo\\loading(1).gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\nivo\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\loading@2x(1).gif",
+      "PackagePath": "staticwebassets\\images\\nivo\\loading@2x(1).gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\loading@2x.gif",
+      "PackagePath": "staticwebassets\\images\\nivo\\loading@2x.gif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\next(1).png",
+      "PackagePath": "staticwebassets\\images\\nivo\\next(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\next.png",
+      "PackagePath": "staticwebassets\\images\\nivo\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\next@2x(1).png",
+      "PackagePath": "staticwebassets\\images\\nivo\\next@2x(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\next@2x.png",
+      "PackagePath": "staticwebassets\\images\\nivo\\next@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\prev(1).png",
+      "PackagePath": "staticwebassets\\images\\nivo\\prev(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\prev.png",
+      "PackagePath": "staticwebassets\\images\\nivo\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\prev@2x(1).png",
+      "PackagePath": "staticwebassets\\images\\nivo\\prev@2x(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\nivo\\prev@2x.png",
+      "PackagePath": "staticwebassets\\images\\nivo\\prev@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\noi-dung-phim-cua-the-loai-phim-kinh-di-phai-duoc-mieu-ta-nhu-the-nao-de-phim-duoc-pho-bien-den-.jpg",
+      "PackagePath": "staticwebassets\\images\\noi-dung-phim-cua-the-loai-phim-kinh-di-phai-duoc-mieu-ta-nhu-the-nao-de-phim-duoc-pho-bien-den-.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\phim-hai-hay-4.jpg",
+      "PackagePath": "staticwebassets\\images\\phim-hai-hay-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\phim_i_n_nh_nh_ng_t_b_o_c_a_yumi poster.jpg",
+      "PackagePath": "staticwebassets\\images\\phim_i_n_nh_nh_ng_t_b_o_c_a_yumi poster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\placeholder.jfif",
+      "PackagePath": "staticwebassets\\images\\placeholder.jfif"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\poster Robot HoangDa.jpg",
+      "PackagePath": "staticwebassets\\images\\poster Robot HoangDa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\poster doraemon.jpg",
+      "PackagePath": "staticwebassets\\images\\poster doraemon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\poster doraemon1.jpg",
+      "PackagePath": "staticwebassets\\images\\poster doraemon1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\posterMai.jpg",
+      "PackagePath": "staticwebassets\\images\\posterMai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\producer_1.jpg",
+      "PackagePath": "staticwebassets\\images\\producer_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\producer_2.jpg",
+      "PackagePath": "staticwebassets\\images\\producer_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\taylor swift1.jpg",
+      "PackagePath": "staticwebassets\\images\\taylor swift1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\thong-tin-moi-nhat-ve-movie-conan-ngoi-sao-5-canh-1-trieu-do-240313082030.jpg",
+      "PackagePath": "staticwebassets\\images\\thong-tin-moi-nhat-ve-movie-conan-ngoi-sao-5-canh-1-trieu-do-240313082030.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ads1(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\ads1(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ads1.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\ads1.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ads2(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\ads2(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ads2.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\ads2.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author2(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author2(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author2.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author2.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author3(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author3(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author3.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author3.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author4(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author4(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\author4.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\author4.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ava4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ava4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-detail(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-detail(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-detail.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-detail2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-detail2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-detail2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-detail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-it1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-it1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-it1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-it1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-it2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-it2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog-it2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog-it2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog26(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog26(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog26.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog27(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog27(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog27.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog29(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog29(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blog29.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blog29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\bloglist-it6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\bloglist-it6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv21(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv21(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv21.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv22(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv22(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv22.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv23(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv23(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv23.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv24(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv24(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv24.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv25(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv25(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv25.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv29(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv29(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\blogv29.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\blogv29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast9(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast9(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cast9.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\cast9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb21(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb21(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb21.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb22(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb22(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb22.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb23(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb23(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb23.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb24(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb24(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb24.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb25(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb25(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb25.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb26(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb26(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb26.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb27(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb27(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb27.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb28(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb28(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb28.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb29(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb29(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb29.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb8(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb8(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb8.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb9(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb9(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceb9.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceb9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist8(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist8(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ceblist8.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ceblist8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cebsingle2(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\cebsingle2(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cebsingle2.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\cebsingle2.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\celeb-hero-single(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\celeb-hero-single(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\celeb-hero-single.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\celeb-hero-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cm-img(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\cm-img(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\cm-img.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\cm-img.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\drop-icon(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\drop-icon(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\drop-icon.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\drop-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\err-img(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\err-img(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\err-img.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\err-img.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\error-bg(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\error-bg(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\error-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\error-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film8(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film8(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\film8.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\film8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ft-bg(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ft-bg(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\ft-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\ft-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\hero-bg(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\hero-bg(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image1-1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image1-1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image10(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image10(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image10.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image101(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image101(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image101.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image101.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image11(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image11(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image11.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image111(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image111(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image111.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image12(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image12(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image12.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image121(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image121(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image121.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image13(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image13(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image13.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image131(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image131(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image131.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image131.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image14(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image14(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image14.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image141(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image141(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image141.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image141.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image15(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image15(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image15.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image151(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image151(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image151.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image151.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image16(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image16(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image16.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image161(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image161(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image161.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image161.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image17(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image17(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image17.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image171(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image171(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image171.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image171.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image18(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image18(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image18.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image181(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image181(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image181.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image181.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image19(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image19(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image19.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image191(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image191(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image191.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image191.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image2-1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image2-1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image20(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image20(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image20.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image201(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image201(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image201.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image201.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image21(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image21(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image21.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image211(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image211(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image211.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image211.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image31(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image31(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image31.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image41(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image41(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image41.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image51(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image51(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image51.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image61(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image61(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image61.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image71(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image71(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image71.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image71.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image8(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image8(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image8.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image81(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image81(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image81.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image81.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image9(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image9(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image9.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image91(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image91(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\image91.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\image91.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\landing-dark-version(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\landing-dark-version(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\landing-dark-version.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\landing-dark-version.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\landing-light-version(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\landing-light-version(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\landing-light-version.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\landing-light-version.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\movie-single(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\movie-single(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\movie-single.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\movie-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it10(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it10(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it10.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it11(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it11(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it11.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it12(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it12(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it12.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it8(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it8(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it8.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it9(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it9(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-it9.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-it9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item10(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item10(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item10.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item11(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item11(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item11.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item12(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item12(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item12.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item8(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item8(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item8.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item9(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item9(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv-item9.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv-item9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\mv5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\mv5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\play-vd(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\play-vd(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\play-vd.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\play-vd.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\poster1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\poster1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\poster1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\poster1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\search-bg(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\search-bg(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\search-bg.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\search-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\search-bgsb(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\search-bgsb(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\search-bgsb.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\search-bgsb.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\season(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\season(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\season.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\season.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\series-img(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\series-img(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\series-img.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\series-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider-bg(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider-bg(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider-bg2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider-bg2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider-bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\slider4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\slider4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\sr-single(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\sr-single(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\sr-single.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\sr-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\topsearch(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\topsearch(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\topsearch.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\topsearch.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer3(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer3(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer3.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer3.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer4(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer4(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer4.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer4.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer6(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer6(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer6.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer7(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer7(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\trailer7.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\trailer7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\user-hero-bg(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\user-hero-bg(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\user-hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\user-hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\user-img(1).png",
+      "PackagePath": "staticwebassets\\images\\uploads\\user-img(1).png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\user-img.png",
+      "PackagePath": "staticwebassets\\images\\uploads\\user-img.png"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava5(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava5(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\userava5.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\userava5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item1(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item1(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item1.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item2(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item2(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item2.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item3(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item3(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item3.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item4(1).jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item4(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\images\\uploads\\vd-item4.jpg",
+      "PackagePath": "staticwebassets\\images\\uploads\\vd-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\js\\plugins2.js",
+      "PackagePath": "staticwebassets\\js\\plugins2.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\Đồ án cơ sở\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DoAnCoSoTL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DoAnCoSoTL.props",
+      "PackagePath": "build\\DoAnCoSoTL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DoAnCoSoTL.props",
+      "PackagePath": "buildMultiTargeting\\DoAnCoSoTL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DoAnCoSoTL.props",
+      "PackagePath": "buildTransitive\\DoAnCoSoTL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

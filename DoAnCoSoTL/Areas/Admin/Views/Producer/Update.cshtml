@@ -1,0 +1,48 @@
+﻿@model DoAnCoSoTL.Models.Producer
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<h2>Edit Producer</h2>
+
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Bio">Bio</label>
+        <textarea asp-for="Bio" class="form-control"></textarea>
+        <span asp-validation-for="Bio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Producer Image</label>
+        <input type="file" asp-for="Image" class="form-control" id="imageInput" onchange="previewImage(event)" />
+        @if (Model.Image != null)
+        {
+            <img id="imagePreview" src="@Model.Image" alt="Category Image" style="max-width: 200px;" />
+        }
+        else
+        {
+            <p>No image available</p>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-success">Back</a>
+</form>
+
+<script>
+    function previewImage(event) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            var output = document.getElementById('imagePreview');
+            output.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>

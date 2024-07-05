@@ -1,0 +1,391 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DoAnCoSoTL
+build_property.RootNamespace = DoAnCoSoTL
+build_property.ProjectDir = C:\Users\FPT SHOP\OneDrive\Desktop\Đồ án cơ sở\PanDaNow\PanDaNow\DoAnCoSoTL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\FPT SHOP\OneDrive\Desktop\Đồ án cơ sở\PanDaNow\PanDaNow\DoAnCoSoTL
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Actor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Actor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0b3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Actor/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0b3JcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Admin/DailyRevenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGFpbHlSZXZlbnVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Cinema/AddRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2luZW1hXEFkZFJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Cinema/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2luZW1hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Cinema/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2luZW1hXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Cinema/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2luZW1hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Cinema/RoomDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2luZW1hXFJvb21EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Cinema/RoomIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2luZW1hXFJvb21JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Cinema/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2luZW1hXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Movie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Movie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Movie/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Producer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Producer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Producer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Producer/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Screening/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NyZWVuaW5nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Screening/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NyZWVuaW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Screening/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NyZWVuaW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Screening/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2NyZWVuaW5nXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/Screening/DailyRevenue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2NyZWVuaW5nXERhaWx5UmV2ZW51ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/Screening/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2NyZWVuaW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/Screening/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2NyZWVuaW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/Screening/TicketSales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2NyZWVuaW5nXFRpY2tldFNhbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/Screening/ViewSeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2NyZWVuaW5nXFZpZXdTZWF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/Shared/_EmployeeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9FbXBsb3llZUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Employee/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Admin_Add_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBZG1pbl9BZGRfUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Movie/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Movie/FilterByCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRmlsdGVyQnlDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Movie/SearchResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2VhcmNoUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/OrderList/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJMaXN0XERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/OrderList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJMaXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Screening/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NyZWVuaW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Screening/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NyZWVuaW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Screening/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NyZWVuaW5nXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/SeatBookingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdEJvb2tpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/SeatBookingCart/OrderCompleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdEJvb2tpbmdDYXJ0XE9yZGVyQ29tcGxldGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/SeatBookingCart/PaymentFail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdEJvb2tpbmdDYXJ0XFBheW1lbnRGYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/SeatBookingCart/PaymentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdEJvb2tpbmdDYXJ0XFBheW1lbnRTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Seat/Choose.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhdFxDaG9vc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/Components/Navbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/Components/Search/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VhcmNoXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/_LayoutNew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FPT SHOP/OneDrive/Desktop/Đồ án cơ sở/PanDaNow/PanDaNow/DoAnCoSoTL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qejin0rqcy

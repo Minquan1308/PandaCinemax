@@ -1,0 +1,21 @@
+﻿@page
+@model LogoutModel
+@{
+    ViewData["Title"] = "Đăng xuất";
+    // Layout = "/Areas/Admin/Shared/_LayoutAdmin.cshtml";
+}
+<h1 class="text-center">@ViewData["Title"]</h1>
+@{
+    if (User.Identity?.IsAuthenticated ?? false)
+    {
+
+        <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post">
+            <button class="dropdown-item" type="submit">Đăng xuất</button>
+        </form>
+
+    }
+    else
+    {
+        <p>You have successfully logged out of the application.</p>
+    }
+}
