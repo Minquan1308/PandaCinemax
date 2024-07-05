@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\areas\\admin\\controllers\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\areas\\admin\\controllers\\screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\models\\seatorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\models\\seatorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|solutionrelative:doancosotl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6362796A-82E9-4957-9A60-07714C412186}|DoAnCoSoTL\\DoAnCoSoTL.csproj|c:\\users\\fpt shop\\onedrive\\desktop\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\pandanow\\pandanow\\doancosotl\\controllers\\seatbookingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -266,7 +266,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 42,
+          "SelectedChildIndex": 64,
           "Children": [
             {
               "$type": "Bookmark",
@@ -274,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DailyRevenue.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\DailyRevenue.cshtml",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\DailyRevenue.cshtml",
@@ -286,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
@@ -298,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
@@ -310,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DetailWithMovieInfoModel.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\DetailWithMovieInfoModel.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\DetailWithMovieInfoModel.cs",
@@ -322,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\AdminController.cs",
@@ -334,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -346,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -358,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\ApplicationUser.cs",
@@ -370,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\OrderList\\Detail.cshtml",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\OrderList\\Detail.cshtml",
@@ -382,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\OrderList\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\OrderList\\Index.cshtml",
@@ -394,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\SeatBookingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\SeatBookingCart\\Index.cshtml",
@@ -490,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SeatOrder.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\SeatOrder.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\SeatOrder.cs",
@@ -562,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Views\\Shared\\_LoginPartial.cshtml",
@@ -742,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OrderListController.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Controllers\\OrderListController.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Controllers\\OrderListController.cs",
@@ -766,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ScreeningController.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\ScreeningController.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\ScreeningController.cs",
@@ -827,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Areas\\Admin\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Areas\\Admin\\Controllers\\MovieController.cs",
@@ -911,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MovieContext.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\Models\\MovieContext.cs",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\Models\\MovieContext.cs",
@@ -1031,15 +1031,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\appsettings.json",
               "RelativeDocumentMoniker": "DoAnCoSoTL\\appsettings.json",
               "ToolTip": "C:\\Users\\FPT SHOP\\OneDrive\\Desktop\\\u0110\u1ED3 \u00E1n c\u01A1 s\u1EDF\\PanDaNow\\PanDaNow\\DoAnCoSoTL\\appsettings.json",
               "RelativeToolTip": "DoAnCoSoTL\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-17T11:34:01.279Z"
+              "WhenOpened": "2024-06-17T11:34:01.279Z",
+              "EditorCaption": ""
             }
           ]
         },
