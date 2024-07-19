@@ -7,15 +7,17 @@ Trang web bao gồm các phần chính sau:
   
   -> Đăng ký và Đăng nhập: 
     
-    • Khách hàng có thể đăng ký tài khoản mới bằng cách sử dụng địa chỉ email và 
-  mật khẩu hoặc đăng nhập nhanh chóng bằng tài khoản Google. 
+    • Khách hàng có thể đăng ký tài khoản mới bằng cách sử dụng địa chỉ email và mật khẩu hoặc đăng nhập nhanh chóng bằng tài khoản Google. 
   
   -> Chọn phim và xem thông tin chi tiết:
+  
     • Khách hàng có thể duyệt qua các bộ phim theo danh mục
+    
   -> Phim đang chiếu: Danh sách các phim hiện đang được chiếu tại các rạp. 
+  
   -> Phim sắp chiếu: Các phim sẽ được chiếu trong thời gian tới. 
-    • Mỗi phim đều có trang thông tin chi tiết bao gồm mô tả phim, dàn diễn viên, 
-  trailer và đánh giá từ người xem.
+  
+    • Mỗi phim đều có trang thông tin chi tiết bao gồm mô tả phim, dàn diễn viên, trailer và đánh giá từ người xem.
   -> Tìm kiếm phim:
     • Khách hàng có thể tìm kiếm phim theo tên hoặc thể loại yêu thích. 
   -> Đặt vé xem phim: 
