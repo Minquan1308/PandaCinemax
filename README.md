@@ -4,9 +4,12 @@ hỗ trợ các chức năng đa dạng và hiện đại để đảm bảo kh�
 Trang web bao gồm các phần chính sau: 
 
 +> Chức năng của Khách hàng:
+  
   -> Đăng ký và Đăng nhập: 
+    
     • Khách hàng có thể đăng ký tài khoản mới bằng cách sử dụng địa chỉ email và 
   mật khẩu hoặc đăng nhập nhanh chóng bằng tài khoản Google. 
+  
   -> Chọn phim và xem thông tin chi tiết:
     • Khách hàng có thể duyệt qua các bộ phim theo danh mục
   -> Phim đang chiếu: Danh sách các phim hiện đang được chiếu tại các rạp. 
